@@ -6,13 +6,18 @@ This part of the repository includes data related to a research article:
 - [ICSE 2018](https://www.icse2018.org/event/icse-2018-technical-papers-the-road-to-live-programming-insights-from-the-practice)
 
 The study includes analysis of:
-- an exploratory study study based on analysis of 17 recorded programming sessions of practitioners using Pharo, a mature Live Programming environment.
+- an exploratory study analysis based on analysis of 17 recorded programming sessions of practitioners using [Pharo](http://pharo.org),
 - a complementary survey, and
 - a subsequent analysis of 16 programming sessions in additional languages
 
 ## Exploratory Study
 
 Transcript of the 17 sessions is available in an Org-Mode structured file: [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt).
+
+TODO:
+- add transcripts
+- add DFlow data (maybe as a CSV file)
+- add Pharo image with the analysis tool
 
 ## Survey
 
