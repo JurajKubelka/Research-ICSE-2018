@@ -7,8 +7,8 @@ This part of the repository includes data related to a research article:
 
 The study includes analysis of:
 - an exploratory study analysis based on analysis of 17 recorded programming sessions of practitioners using [Pharo](http://pharo.org),
-- a complementary survey, and
-- a subsequent analysis of 16 programming sessions in additional languages
+- a complementary on-line survey, and
+- a subsequent analysis of 16 on-line programming sessions in additional languages
 
 ## Exploratory Study
 
@@ -19,10 +19,10 @@ TODO:
 - add DFlow data (maybe as a CSV file)
 - add Pharo image with the analysis tool
 
-## Survey
+## On-line Survey
 
 The survey data are available at [02-survey](./02-survey) directory. It includes questions and responses.
 
-## Subsequent Sessions
+## On-line Coding Session Videos
 
 Subsequent video classification and links to video sources are available at [03-subsequent-videos](03-subsequent-videos) directory. It includes a CSV file.
