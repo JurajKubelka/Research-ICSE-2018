@@ -1,0 +1,1166 @@
+Session,Name,Tool,Video Time
+S11,TestFailure: Assertion failed,debugger,0:00:13:26
+S11,Edit Version Name and Log Message:,dialog,0:00:42:21
+S11,a R3MorphWith2DOverlay(732954624),unknown,0:00:42:05
+S11,a TRMorph(460587008),unknown,0:00:38:19
+S11,GL viewport,unknown,0:00:38:43
+S11,Changes Browser,dialog,0:00:39:38
+S11,GL viewport,unknown,0:00:23:04
+S11,User Interrupt,user-interruption,0:00:28:24
+S11,MessageNotUnderstood: SmallInteger>>model,debugger,0:00:10:54
+S11,New Protocol,dialog,0:00:21:09
+S11,TestCase class>>#isAbstract,system-browser,0:00:40:17
+S11,Question,dialog,0:00:11:08
+S11,New Protocol,dialog,0:00:12:24
+S11,ByteString [0],inspector,0:00:22:37
+S11,TestFailure: Got a R3Element<1> instead of 1.,pre-debugger,0:00:05:18
+S11,MessageNotUnderstood: ByteSymbol>>roValue:,pre-debugger,0:00:13:41
+S11,Monticello Browser,repository-browser,0:00:42:18
+S11,a R3MorphWith2DOverlay(411828224),unknown,0:00:19:21
+S11,TestFailure: Assertion failed,pre-debugger,0:00:13:24
+S11,Class search,dialog,0:00:06:34
+S11,a R3MorphWith2DOverlay(358350848),unknown,0:00:19:21
+S11,User Interrupt,user-interruption,0:00:28:41
+S11,"Unknown variable: shape please correct, or cancel:",dialog,0:00:04:12
+S11,ByteString [12],inspector,0:00:19:21
+S11,Recent versions of applyLayout,history-browser,0:00:19:13
+S11,a R3MorphWith2DOverlay(1025769472),unknown,0:00:38:15
+S11,MessageNotUnderstood: ByteSymbol>>roValue:,pre-debugger,0:00:13:58
+S11,R3CityBuilderTest,system-browser,0:00:21:07
+S11,a R3MorphWith2DOverlay(434110464),unknown,0:00:17:35
+S11,Provide the following information,dialog,0:00:41:28
+S11,a R3MorphWith2DOverlay(1070858240),unknown,0:00:12:34
+S11,TestFailure: Assertion failed,pre-debugger,0:00:17:06
+S11,Version: Roassal3d-AlexandreBergel.149,dialog,0:00:11:27
+S11,a R3MorphWith2DOverlay(668205056),unknown,0:00:31:19
+S11,Recent versions of testApplyLayout,history-browser,0:00:17:39
+S11,a R3MorphWith2DOverlay(448004096),unknown,0:00:23:13
+S11,GL viewport,unknown,0:00:23:09
+S11,TestFailure: Assertion failed,pre-debugger,0:00:15:05
+S11,GL viewport,unknown,0:00:22:42
+S11,a R3MorphWith2DOverlay(887619584),unknown,0:00:20:23
+S11,a R3MorphWith2DOverlay(747896832),unknown,0:00:11:27
+S11,a R3MorphWith2DOverlay(458752000),unknown,0:00:38:43
+S11,GL viewport,unknown,0:00:23:13
+S11,GL viewport,unknown,0:00:22:37
+S11,GL viewport,unknown,0:00:12:35
+S11,User Interrupt,user-interruption,0:00:28:29
+S11,a R3MorphWith2DOverlay(74448896),unknown,0:00:32:26
+S11,TestFailure: Assertion failed,pre-debugger,0:00:18:52
+S11,GL viewport,unknown,0:00:19:21
+S11,ByteString [0],inspector,0:00:42:06
+S11,Class search,dialog,0:00:02:39
+S11,User Interrupt,user-interruption,0:00:28:41
+S11,a R3MorphWith2DOverlay(983564288),unknown,0:00:22:03
+S11,GL viewport,unknown,0:00:20:21
+S11,Question,dialog,0:00:39:15
+S11,a R3MorphWith2DOverlay(717488128),unknown,0:00:22:03
+S11,a R3MorphWith2DOverlay(448790528),unknown,0:00:42:05
+S11,Method Name,dialog,0:00:39:49
+S11,Provide the following information,dialog,0:00:39:31
+S11,Changes Browser,dialog,0:00:39:53
+S11,Implementors of addInteraction: [2],method-browser,0:00:33:26
+S11,Provide the following information,dialog,0:00:41:21
+S11,Workspace,playground,0:00:30:57
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:19:45
+S11,User Interrupt,user-interruption,0:00:28:10
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:10:52
+S11,a R3MorphWith2DOverlay(1049886720),unknown,0:00:11:27
+S11,Changes Browser,dialog,0:00:41:25
+S11,GL viewport,unknown,0:00:23:13
+S11,a TRMorph(996147200),unknown,0:00:26:31
+S11,ByteString [0],inspector,0:00:12:35
+S11,MessageNotUnderstood: ByteSymbol>>roValue:,debugger,0:00:14:01
+S11,a R3MorphWith2DOverlay(276561920),unknown,0:00:23:13
+S11,Question,dialog,0:00:14:29
+S11,TestFailure: Assertion failed,pre-debugger,0:00:16:12
+S11,GL viewport,unknown,0:00:19:21
+S11,R3AbstractShapeTest class>>#isAbstract,system-browser,0:00:01:29
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:11:45
+S11,Implementors of applyLayout [3],method-browser,0:00:17:57
+S11,a R3MorphWith2DOverlay(896532480),unknown,0:00:38:42
+S11,New Protocol,dialog,0:00:04:21
+S11,MessageNotUnderstood: SmallInteger>>model,debugger,0:00:19:47
+S11,Test Runner,test-runner,0:00:11:18
+S11,"Unknown variable: el please correct, or cancel:",dialog,0:00:04:15
+S11,a R3MorphWith2DOverlay(1050148864),unknown,0:00:22:37
+S11,Monticello Browser,repository-browser,0:00:23:36
+S11,MessageNotUnderstood: R3Element>>@,pre-debugger,0:00:33:14
+S11,RTShape>>#color:,system-browser,0:00:06:22
+S11,TestFailure: Got a R3Element<1> instead of 1.,debugger,0:00:05:24
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:11:38
+S11,a R3MorphWith2DOverlay(479985664),unknown,0:00:42:05
+S11,GL viewport,unknown,0:00:23:03
+S11,GL viewport,unknown,0:00:23:11
+S11,GL viewport,unknown,0:00:12:35
+S11,a R3MorphWith2DOverlay(693895168),unknown,0:00:20:23
+S11,TestFailure: Assertion failed,debugger,0:00:17:07
+S11,a R3MorphWith2DOverlay(764936192),unknown,0:00:12:34
+S11,TestFailure: Assertion failed,debugger,0:00:16:13
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:12:43
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:11:51
+S11,MessageNotUnderstood: SmallInteger>>model,debugger,0:00:11:56
+S11,R3SimpleShape>>#renderBaseShape:sharedGeometry:,system-browser,0:00:30:20
+S11,GL viewport,unknown,0:00:23:06
+S11,R3CityBuilder>>#adjustBase,system-browser,0:00:18:25
+S11,R3CityBuilderTest,system-browser,0:00:22:09
+S11,Recent versions of exampleNiceColors,history-browser,0:00:30:50
+S11,MessageNotUnderstood: SmallInteger>>model,pre-debugger,0:00:19:26
+S11,New Protocol,dialog,0:00:29:55
+S11,R3IcoSphereShape>>#recursionLevel:,system-browser,0:00:27:30
+S11,a R3MorphWith2DOverlay(596901888),unknown,0:00:22:37
+S11,Password Required,dialog,0:00:24:45
+S11,Edit Version Name and Log Message:,dialog,0:00:23:50
+S11,MessageNotUnderstood: R3CubeShape>>widthElement:,pre-debugger,0:00:06:14
+S11,User Interrupt,user-interruption,0:00:28:24
+S11,Changes to Roassal3d (Roassal3d-RonieSalgado.148),history-browser,0:00:23:44
+S11,a R3MorphWith2DOverlay(693108736),unknown,0:00:38:05
+S11,a R3MorphWith2DOverlay(272629760),unknown,0:00:22:03
+S11,a R3MorphWith2DOverlay(45350912),unknown,0:00:29:36
+S11,Version: Roassal3d-AlexandreBergel.150,dialog,0:00:42:43
+S11,a R3MorphWith2DOverlay(424148992),unknown,0:00:38:43
+S11,a R3MorphWith2DOverlay(890503168),unknown,0:00:23:13
+S11,The message #expectedFailure has 11 senders,dialog,0:00:22:20
+S11,a R3MorphWith2DOverlay(172490752),unknown,0:00:20:24
+S11,ByteString [0],inspector,0:00:23:13
+S11,a R3MorphWith2DOverlay(966000640),unknown,0:00:38:42
+S11,a R3MorphWith2DOverlay(153092096),unknown,0:00:23:13
+S11,a R3MorphWith2DOverlay(338165760),unknown,0:00:19:21
+S11,GL viewport,unknown,0:00:22:03
+S11,R3CityBuilder>>#baseElement,system-browser,0:00:18:37
+S11,a R3MorphWith2DOverlay(261619712),unknown,0:00:34:24
+S11,a R3MorphWith2DOverlay(614989824),unknown,0:00:26:53
+S11,a R3MorphWith2DOverlay(1072693248),unknown,0:00:22:37
+S11,TestFailure: Assertion failed,debugger,0:00:18:54
+S11,Users of R3CubeShape [100],method-browser,0:00:04:30
+S11,a R3MorphWith2DOverlay(165675008),unknown,0:00:22:03
+S11,GL viewport,unknown,0:00:22:37
+S11,R3SimpleShape>>#width:,system-browser,0:00:06:24
+S11,ByteString [16],inspector,0:00:11:27
+S11,GL viewport,unknown,0:00:42:06
+S11,Implementors of expectedFailures [13],method-browser,0:00:22:16
+S11,a R3MorphWith2DOverlay(475529216),unknown,0:00:38:42
+S11,a R3MorphWith2DOverlay(590086144),unknown,0:00:36:58
+S11,GL viewport,unknown,0:00:23:12
+S11,a R3MorphWith2DOverlay(548667392),unknown,0:00:36:57
+S11,GL viewport,unknown,0:00:20:19
+S11,a R3MorphWith2DOverlay(584056832),unknown,0:00:11:27
+S11,GL viewport,unknown,0:00:20:24
+S11,a R3MorphWith2DOverlay(99614720),unknown,0:00:19:21
+S11,GL viewport,unknown,0:00:11:27
+S11,ByteString [0],inspector,0:00:22:03
+S11,a R3MorphWith2DOverlay(1050935296),unknown,0:00:34:00
+S11,a R3MorphWith2DOverlay(1045692416),unknown,0:00:19:21
+S11,R3IcoSphereShape>>#renderBaseShape:,system-browser,0:00:29:40
+S11,a R3MorphWith2DOverlay(901251072),unknown,0:00:16:03
+S11,a R3MorphWith2DOverlay(405274624),unknown,0:00:35:34
+S11,a R3MorphWith2DOverlay(1042284544),unknown,0:00:30:43
+S11,Provide the following information,dialog,0:00:25:28
+S11,a R3MorphWith2DOverlay(882638848),unknown,0:00:37:19
+S11,GL viewport,unknown,0:00:38:43
+S11,RTEllipse>>#updateFor:trachelShape:,system-browser,0:00:06:32
+S11,a R3MorphWith2DOverlay(905969664),unknown,0:00:12:35
+S11,GL viewport,unknown,0:00:20:24
+S11,R3RoassalExample>>#exampleNiceColors,system-browser,0:00:26:27
+S11,a R3MorphWith2DOverlay(327155712),unknown,0:00:12:34
+S11,a R3MorphWith2DOverlay(459800576),unknown,0:00:20:23
+S11,a R3MorphWith2DOverlay(251920384),unknown,0:00:42:06
+S11,User Interrupt,user-interruption,0:00:28:23
+S11,a R3MorphWith2DOverlay(857997312),unknown,0:00:20:23
+S11,ByteString [0],inspector,0:00:11:27
+S11,GL viewport,unknown,0:00:11:27
+S11,Question,dialog,0:00:19:40
+S11,New Protocol,dialog,0:00:01:46
+S11,a R3MorphWith2DOverlay(633339904),unknown,0:00:28:45
+S11,a R3MorphWith2DOverlay(781451264),unknown,0:00:22:36
+S11,R3UVSphereShape,system-browser,0:00:12:56
+S11,MessageNotUnderstood: SmallInteger>>model,debugger,0:00:19:28
+S11,ByteString [0],inspector,0:00:20:24
+S11,GL viewport,unknown,0:00:22:03
+S11,R3CityBuilder>>#r3Edges:from:to:,system-browser,0:00:14:26
+S11,TestFailure: Assertion failed,pre-debugger,0:00:22:07
+S11,TestFailure: Assertion failed,pre-debugger,0:00:20:29
+S11,a R3MorphWith2DOverlay(156499968),unknown,0:00:19:03
+S11,a R3MorphWith2DOverlay(495714304),unknown,0:00:12:34
+S11,R3CityBuilder>>#applyLayout,system-browser,0:00:19:09
+S11,GL viewport,unknown,0:00:42:06
+S11,User,dialog,0:00:24:40
+S11,a R3MorphWith2DOverlay(657457152),unknown,0:00:22:03
+S11,GL viewport,unknown,0:00:23:10
+S11,a R3MorphWith2DOverlay(1058013184),unknown,0:00:42:06
+S11,a R3MorphWith2DOverlay(724041728),unknown,0:00:22:37
+S11,TestFailure: Assertion failed,debugger,0:00:15:21
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:21:33
+S4,"MessageNotUnderstood: receiver of copyReplaceAll:with:asTokens:"" is nil""",debugger,0:00:18:44
+S4,Playground,playground,0:00:05:10
+S4,TestFailure: Assertion failed,debugger,0:00:22:27
+S4,a TRMorph(411828224),unknown,0:00:34:59
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:26:28
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:35:22
+S4,Question,dialog,0:00:20:57
+S4,TestFailure: Assertion failed,debugger,0:00:47:56
+S4,TRCanvasExample>>#svg01,system-browser,0:00:28:06
+S4,Accesses to matrix [14],method-browser,0:00:09:39
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:26:47
+S4,Settings browser,settings-browser,0:00:01:04
+S4,a TRMorph(204734464),unknown,0:00:27:46
+S4,Glamorous Browser,example-browser,0:00:17:08
+S4,Senders or Users of transformedEncompassingRectangle [2],method-browser,0:00:32:00
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:20:59
+S4,TRShape>>#transformedEncompassingRectangle,system-browser,0:00:31:57
+S4,a TRMorph(275513344),unknown,0:00:03:44
+S4,a TRMorph(282591232),unknown,0:00:17:09
+S4,Accesses to matrix [8],method-browser,0:00:11:01
+S4,a TRMorph(446431232),unknown,0:00:17:09
+S4,"Unknown variable: svg please correct, or cancel:",dialog,0:00:38:25
+S4,a TRMorph(177209344),unknown,0:00:26:37
+S4,a TRMorph(97517568),unknown,0:00:02:52
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:05:43
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:28:38
+S4,Users of TRSVGPath [15],method-browser,0:00:27:56
+S4,a TRMorph(623116288),unknown,0:00:30:02
+S4,Users of TRSVGPath [16],method-browser,0:00:40:59
+S4,MessageNotUnderstood: Array>>translateBy:,debugger,0:00:04:29
+S4,Instance variables in TRSVGPath,dialog,0:00:10:54
+S4,Users of TRSVGPath [12],method-browser,0:00:14:40
+S4,TRShapeTest>>#testPositionDefaultSVGPath,system-browser,0:00:16:01
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:49:18
+S4,Users of TRSVGPath [12],method-browser,0:00:02:30
+S4,a TRMorph(559153152),unknown,0:00:06:34
+S4,Instance variables in TRAbstractBoxShape,dialog,0:00:09:36
+S4,Changes Browser,dialog,0:00:18:40
+S4,Changes Browser,dialog,0:00:18:01
+S4,Provide the following information,dialog,0:00:18:38
+S4,Senders of matrix [7],method-browser,0:00:11:18
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:20:43
+S4,TRSVGPath>>#basicEncompassingRectangle,system-browser,0:00:40:37
+S4,a TRMorph(66060288),unknown,0:00:17:09
+S4,TestFailure: Assertion failed,debugger,0:00:20:33
+S4,Glamorous Browser,example-browser,0:00:17:07
+S4,Test Runner,test-runner,0:00:16:52
+S4,Accesses to matrix [11],method-browser,0:00:10:46
+S4,Implementors of position [58],method-browser,0:00:22:41
+S4,a TRMorph(451411968),unknown,0:00:17:09
+S4,a TRMorph(727973888),unknown,0:00:17:09
+S4,Class search,dialog,0:00:35:56
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:49:02
+S4,a TRMorph(525336576),unknown,0:00:34:43
+S4,Find & Replace,dialog,0:00:35:54
+S4,Class search,dialog,0:00:01:55
+S4,TestFailure: Assertion failed,debugger,0:00:38:36
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:03:54
+S4,Instance variables in TRSVGPath,dialog,0:00:07:53
+S4,Instance variables in TRAbstractBoxShape,dialog,0:00:10:44
+S4,a TRMorph(572784640),unknown,0:00:28:46
+S4,TestFailure: Got (256@256) instead of (0@0).,debugger,0:00:21:27
+S4,TestFailure: Got (276@296) instead of (10@20).,debugger,0:00:48:47
+S4,Glamorous Browser,example-browser,0:00:17:07
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:20:05
+S4,a TRMorph(903872512),unknown,0:00:06:35
+S4,Provide the following information,dialog,0:00:18:00
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:48:08
+S4,Glamorous Browser,example-browser,0:00:17:07
+S4,a TRMorph(377749504),unknown,0:00:45:31
+S4,MessageNotUnderstood: False>>@,debugger,0:00:47:46
+S4,"MessageNotUnderstood: receiver of copyReplaceAll:with:asTokens:"" is nil""",debugger,0:00:19:29
+S4,Playground,playground,0:00:02:24
+S4,a TRMorph(179568640),unknown,0:00:14:11
+S4,Choose,dialog,0:00:32:41
+S4,TestFailure: Got (512@512) instead of (0@0).,debugger,0:00:35:08
+S4,Glamorous Browser,example-browser,0:00:17:07
+S4,a TRMorph(172228608),unknown,0:00:29:01
+S4,a TRMorph(436731904),unknown,0:00:37:25
+S4,TRShape>>#position,system-browser,0:00:32:45
+S4,Users of TRSVGPath [15],method-browser,0:00:34:25
+S4,Inspector on a TRCanvas (a TRCanvas),inspector,0:00:13:07
+S4,"Unknown variable: initialPositon please correct, or cancel:",dialog,0:00:48:41
+S4,a TRMorph(775421952),unknown,0:00:17:09
+S4,"MessageNotUnderstood: receiver of copyReplaceAll:with:asTokens:"" is nil""",debugger,0:00:18:06
+S4,a TRMorph(596639744),unknown,0:00:39:44
+S4,MessageNotUnderstood: GTGenericStackDebugger>>window,debugger,0:00:49:07
+S4,Glamorous Browser,example-browser,0:00:17:08
+S4,Users of TRBoxShape [45],method-browser,0:00:15:00
+S4,Accesses to rectangle [4],method-browser,0:00:07:55
+S4,Users of TRMouseDragging [19],method-browser,0:00:44:19
+S4,RTDraggable>>#initializeElement:,system-browser,0:00:44:29
+S4,TRSVGPath>>#encompassingRectangle,system-browser,0:00:01:42
+S4,RTSVGPath,system-browser,0:00:41:03
+S4,TRShape>>#transformedEncompassingRectangle,system-browser,0:00:31:20
+S1,Question,unknown,0:00:07:16
+S1,AnnouncementSubscription>>#handlesAnnouncement:,system-browser,0:00:19:18
+S1,TimeStamp,system-browser,0:00:37:42
+S1,Senders of mouseDown: [37],method-browser,0:00:42:19
+S1,Halt,debugger,0:00:34:20
+S1,TREvent,system-browser,0:00:21:29
+S1,TREvent,system-browser,0:00:10:50
+S1,Senders of announce: [206],method-browser,0:00:18:13
+S1,Integer>>#anyMask:,system-browser,0:00:27:59
+S1,Question,unknown,0:00:07:35
+S1,TRMouseClick>>#shiftKeyPressed,system-browser,0:00:15:03
+S1,Implementors of when:do: [10],method-browser,0:00:03:43
+S1,RTElement,inspector,0:00:04:43
+S1,Workspace,playground,0:00:19:11
+S1,RTAnnounceableObject>>#when:do:,system-browser,0:00:04:52
+S1,a TRMorph(1024983040),unknown,0:00:00:58
+S1,Window,inspector,0:00:38:47
+S1,Workspace,playground,0:00:37:38
+S1,MouseButtonEvent,inspector,0:00:35:11
+S1,Announcements-Core,system-browser,0:00:07:01
+S1,Implementors of doubleClick:fromMorph: [3],method-browser,0:00:43:24
+S1,Users of class TRMouseClick [41],method-browser,0:00:23:05
+S1,Senders of announce: [206],method-browser,0:00:22:32
+S1,Morph,system-browser,0:00:30:08
+S1,MessageNotUnderstood: Date class>>now,pre-debugger,0:00:38:11
+S1,RTAnnounceableObject>>#announcer,system-browser,0:00:17:02
+S1,Halt,pre-debugger,0:00:34:16
+S1,Halt,pre-debugger,0:00:34:49
+S1,RTAnnounceableObject>>#when:do:,system-browser,0:00:05:18
+S1,TRMorph>>#doubleClick:,system-browser,0:00:33:42
+S1,TRMouseClick>>#initialize,system-browser,0:00:02:30
+S1,Senders of subscriptions [5],method-browser,0:00:12:54
+S1,TRMouseRightClick class,system-browser,0:00:20:16
+S1,RTElement,inspector,0:00:04:49
+S1,MouseButtonEvent,inspector,0:00:34:28
+S1,Workspace,playground,0:00:00:20
+S1,Announcer>>#announce:,system-browser,0:00:20:59
+S1,Halt,pre-debugger,0:00:34:49
+S1,a TRMorph(328990720),unknown,0:00:00:34
+S1,Announcer>>#when:do:,system-browser,0:00:05:57
+S1,Morph>>#mouseDown:,system-browser,0:00:42:50
+S1,Morph>>#actWhen:,system-browser,0:00:30:02
+S1,TRMouseClick,system-browser,0:00:22:52
+S1,MouseButtonEvent>>#redButtonChanged,system-browser,0:00:24:44
+S1,Halt,debugger,0:00:35:06
+S1,TRMorph>>#mouseDown:,system-browser,0:00:41:53
+S1,Date class>>#today,system-browser,0:00:38:15
+S1,Announcement class>>#handlesAnnouncement:,system-browser,0:00:21:39
+S1,a TRMorph(848560128),unknown,0:00:35:34
+S13,Question,dialog,0:00:36:25
+S13,New Protocol,dialog,0:00:07:20
+S13,Monticello Browser,repository-browser,0:00:09:19
+S13,The message #eventHasNotBool:value: has 1 sender,dialog,0:00:20:31
+S13,New Protocol,dialog,0:00:44:30
+S13,Halt,debugger,0:00:32:52
+S13,MessageNotUnderstood: LRPErrorHandlerUI class>>openWithSpec,debugger,0:00:48:22
+S13,Repository: http://smalltalkhub.com/mc/jfabry/RobotPlayground/main/,history-browser,0:00:09:35
+S13,Changes Browser,dialog,0:00:40:03
+S13,"Unknown variable: cleanButton please correct, or cancel:",dialog,0:00:41:56
+S13,The message #errorBlock: has 10 senders,dialog,0:00:19:48
+S13,Live Robot Programming UI,unknown,0:00:23:33
+S13,Live Robot Programming UI,unknown,0:00:34:58
+S13,Live Robot Programming UI,unknown,0:00:32:31
+S13,Playground,playground,0:00:26:23
+S13,Untitled window,unknown,0:00:49:09
+S13,"Unknown variable: LRPDummyErrorHandler please correct, or cancel:",dialog,0:00:08:26
+S13,Untitled window,unknown,0:00:48:33
+S13,The message #machineNotFound: has 2 senders,dialog,0:00:21:55
+S13,New Protocol,dialog,0:00:12:52
+S13,Live Robot Programming UI,unknown,0:00:33:26
+S13,Halt,debugger,0:00:23:46
+S13,The message #eventNotFound:machine: has 1 sender,dialog,0:00:20:52
+S13,The message #stateNotFound:machine: has 1 sender,dialog,0:00:23:13
+S13,Senders of machineNotFound: [2],method-browser,0:00:22:07
+S13,Live Robot Programming UI,unknown,0:00:37:22
+S13,The message #machineNotFound: has 2 senders,dialog,0:00:22:47
+S13,LRPTransition>>#checkWith:,system-browser,0:00:20:39
+S13,New Protocol,dialog,0:00:14:36
+S13,LRPTransition>>#checkWith:,system-browser,0:00:19:56
+S13,Senders of errorBlock: [10],method-browser,0:00:17:31
+S13,New Protocol,dialog,0:00:46:45
+S13,Inspector on a LRPGrowlErrorHandler (a LRPGrowlErrorHandler),inspector,0:00:18:11
+S13,New Protocol,dialog,0:00:40:36
+S13,Question,dialog,0:00:10:00
+S13,Changes Browser,dialog,0:00:42:14
+S13,New Protocol,dialog,0:00:10:51
+S13,LRPProgramEditor class>>#defaultSpec,system-browser,0:00:05:01
+S13,Question,dialog,0:00:16:02
+S13,Inspector on a LRPDummyErrorHandler (a LRPDummyErrorHandler),inspector,0:00:33:04
+S13,Senders of machineNotFound: [2],method-browser,0:00:21:02
+S13,"Unknown variable: errorList please correct, or cancel:",dialog,0:00:41:52
+S13,Question,dialog,0:00:30:55
+S13,LRPErrorHandlerUI class>>#defaultSpec,system-browser,0:00:04:49
+S13,Live Robot Programming UI,unknown,0:00:00:48
+S13,Information Required,unknown,0:00:08:33
+S13,Snapshot of LiveRobotics-EV3Bridge-johanfabry.2.mcz,unknown,0:00:09:41
+S13,LRPMachine>>#setCurrentState:actions:,system-browser,0:00:22:53
+S13,Question,dialog,0:00:10:13
+S13,ListModel>>#items:,system-browser,0:00:45:50
+S12,New Protocol,dialog,0:00:42:54
+S12,Question,dialog,0:00:40:16
+S12,New Protocol,dialog,0:00:38:50
+S12,BPProcess>>#allWSDLs,system-browser,0:00:09:31
+S12,MessageNotUnderstood: BPVariable>>values,debugger,0:00:23:46
+S12,Playground,playground,0:00:07:17
+S12,Playground,playground,0:00:04:02
+S12,New Protocol,dialog,0:00:35:30
+S12,New Protocol,dialog,0:00:14:27
+S12,Inspector on a BPVariable (a BPVariable 'Error printing the object'),inspector,0:00:27:43
+S12,BPVariableTest>>#testbuildRelations_showDef,system-browser,0:00:16:21
+S12,Panel Analizador SOA,unknown,0:00:20:56
+S12,TestFailure: Assertion failed,debugger,0:00:16:55
+S12,BPVariable,system-browser,0:00:03:29
+S12,Inspector on a BPVariable (a BPVariable 'Error printing the object'),inspector,0:00:04:37
+S12,TestFailure: Assertion failed,debugger,0:00:17:43
+S12,Playground,playground,0:00:33:39
+S12,Inspector on a BPVariable (a BPVariable 'Error printing the object'),inspector,0:00:21:10
+S12,Window,system-browser,0:00:35:01
+S12,RORectangleTreeMap,system-browser,0:00:34:08
+S12,Question,dialog,0:00:40:20
+S12,Panel Analizador SOA,unknown,0:00:00:36
+S12,New Protocol,dialog,0:00:40:07
+S12,BPVCBPProcessNormalLayout>>#executeVisualization:,system-browser,0:00:08:44
+S12,Inspector on a BPVariable (a BPVariable 'Error printing the object'),inspector,0:00:18:06
+S12,TestFailure: Assertion failed,debugger,0:00:25:47
+S12,choose a class to browse...,dialog,0:00:34:02
+S2,Halt,debugger,0:00:19:21
+S2,RTMenuBuilder>>#showSubmenuOf:,system-browser,0:00:25:12
+S2,a TRMorph(913309696),unknown,0:00:30:39
+S2,a TRMorph(25427968),unknown,0:00:22:17
+S2,RTMenuItem>>#rawmenu,system-browser,0:00:04:12
+S2,a TRMorph(779878400),unknown,0:00:18:07
+S2,a TRMorph(451149824),unknown,0:00:02:01
+S2,RTMenuBuilder>>#showSubmenuOf:,system-browser,0:00:45:15
+S2,a TRMorph(1017905152),unknown,0:00:29:07
+S2,a TRMorph(1060634624),unknown,0:00:18:27
+S2,MessageNotUnderstood: TRLabelShape>>background:,pre-debugger,0:00:18:23
+S2,a TRMorph(671612928),unknown,0:00:24:20
+S2,a TRMorph(359399424),unknown,0:00:46:32
+S2,Roassal2,system-browser,0:00:05:07
+S2,TRLabelShape,inspector,0:00:38:18
+S2,a TRMorph(159121408),unknown,0:00:32:45
+S2,a TRMorph(438829056),unknown,0:00:24:33
+S2,a TRMorph(892862464),unknown,0:00:37:02
+S2,a TRMorph(645398528),unknown,0:00:45:06
+S2,Senders of items [39],method-browser,0:00:15:56
+S2,Halt,pre-debugger,0:00:44:46
+S2,Halt,debugger,0:00:23:17
+S2,RTMenu>>#items,system-browser,0:00:04:16
+S2,Recent versions of showSubmenuOf:,history-browser,0:00:25:26
+S2,Workspace,playground,0:00:01:18
+S2,Settings browser,settings-browser,0:00:22:56
+S2,TRShape,system-browser,0:00:19:34
+S2,RTMenuBuilder>>#createBackgroundFor:color:,system-browser,0:00:05:27
+S2,Halt,pre-debugger,0:00:23:13
+S2,a TRMorph(586416128),unknown,0:00:22:56
+S2,Halt,debugger,0:00:44:56
+S2,TRBoxShape,inspector,0:00:23:31
+S2,a TRMorph(408944640),unknown,0:00:31:19
+S2,a TRMorph(275251200),unknown,0:00:30:53
+S2,RTMenu,system-browser,0:00:37:32
+S2,Halt,debugger,0:00:38:12
+S2,RTMenuItem>>#rawmenu,system-browser,0:00:03:15
+S2,a TRMorph(705429504),unknown,0:00:44:42
+S2,Array [0],inspector,0:00:40:12
+S2,Instance variables in RTMenuItem,dialog,0:00:03:58
+S2,Halt,pre-debugger,0:00:19:12
+S2,a TRMorph(724828160),unknown,0:00:22:03
+S2,a TRMorph(752877568),unknown,0:00:29:15
+S2,RTMenuBuilder>>#menu:submenu:background:callback:,system-browser,0:00:02:10
+S2,Halt,pre-debugger,0:00:38:08
+S2,a TRMorph(186384384),unknown,0:00:11:04
+S2,Accesses to rawmenu [2],method-browser,0:00:04:00
+S3,RTEdge class>>#buildEdgesFromObjects:from:toAll:using:inView:scope:,system-browser,0:00:47:54
+S3,Nautilus,system-browser,0:00:28:42
+S3,a TRMorph(439877632),unknown,0:00:25:59
+S3,MessageNotUnderstood: ByteSymbol>>dependentClasses,debugger,0:00:37:35
+S3,a TRMorph(9699328),unknown,0:00:02:26
+S3,a TRMorph(578027520),unknown,0:00:21:06
+S3,Window,unknown,0:00:48:16
+S3,MessageNotUnderstood: RTMenu>>with,debugger,0:00:23:41
+S3,MessageNotUnderstood: RTMenu>>with,pre-debugger,0:00:23:29
+S3,RoassalDowser,unknown,0:00:35:27
+S3,RTMondrianViewBuilder>>#edgesToAll:,system-browser,0:00:29:20
+S3,RTMenuItem>>#rawmenu,system-browser,0:00:16:28
+S3,Implementors of add: [58],method-browser,0:00:03:21
+S3,RTMenuItem>>#background,system-browser,0:00:15:59
+S3,RTMenu>>#hideItems,system-browser,0:00:15:09
+S3,a TRMorph(103546880),unknown,0:00:03:28
+S3,Monticello Browser,repository-browser,0:00:01:22
+S3,Merging Roassal2-AlexandreBergel.386,unknown,0:00:02:01
+S3,a TRMorph(435945472),unknown,0:00:23:32
+S3,MessageNotUnderstood: RTMenu>>with,pre-debugger,0:00:23:38
+S3,RTMenuBuilder>>#createBackgroundFor:color:,system-browser,0:00:02:34
+S3,MessageNotUnderstood: ByteSymbol>>dependentClasses,pre-debugger,0:00:31:37
+S3,a TRMorph(888143872),unknown,0:00:24:31
+S3,a TRMorph(62652416),unknown,0:00:17:18
+S3,a TRMorph(360972288),unknown,0:00:28:39
+S3,Implementors of edgesFrom:toAll: [3],method-browser,0:00:29:57
+S3,a TRMorph(320077824),unknown,0:00:28:10
+S3,a TRMorph(648544256),unknown,0:00:14:53
+S3,RTMenuItem>>#color,system-browser,0:00:04:19
+S3,a TRMorph(724828160),unknown,0:00:08:06
+S3,"Unknown selector, pleaseconfirm, correct, or cancel",dialog,0:00:17:36
+S3,Implementors of superclass [9],method-browser,0:00:37:10
+S3,a TRMorph(14942208),unknown,0:00:35:55
+S3,RTMondrianViewBuilder>>#edges:from:toAll:,system-browser,0:00:30:32
+S3,Implementors of // [8],method-browser,0:00:36:27
+S3,a TRMorph(128712704),unknown,0:00:19:54
+S3,"Unknown variable: backgrounds please correct, or cancel:",dialog,0:00:10:58
+S3,MessageNotUnderstood: RTMenuBuilder>>translateTo:,pre-debugger,0:00:13:06
+S3,Repository: http://smalltalkhub.com/mc/ObjectProfile/Roassal2/main/,history-browser,0:00:01:45
+S3,a TRMorph(128450560),unknown,0:00:03:39
+S3,MessageNotUnderstood: ByteSymbol>>dependentClasses,pre-debugger,0:00:37:25
+S3,Workspace,playground,0:00:28:20
+S3,Implementors of execute: [9],method-browser,0:00:09:07
+S3,Change Protocol (current: dependencies),unknown,0:00:41:31
+S3,a TRMorph(475004928),unknown,0:00:13:46
+S3,a TRMorph(369360896),unknown,0:00:26:53
+S3,Workspace,playground,0:00:28:59
+S3,Senders or Users of edgesFrom: [8],method-browser,0:00:34:50
+S3,Nautilus,system-browser,0:00:02:29
+S3,TBehavior>>#dependentClasses,unknown,0:00:19:05
+S3,MessageNotUnderstood: ByteSymbol>>dependentClasses,debugger,0:00:31:39
+S3,"Unknown variable: color please correct, or cancel:",dialog,0:00:04:37
+S3,MessageNotUnderstood: ByteSymbol>>dependentClasses,pre-debugger,0:00:29:03
+S3,MessageNotUnderstood: RTMenuBuilder>>translateTo:,debugger,0:00:13:14
+S3,Workspace,playground,0:00:02:12
+S17,Class search,dialog,0:00:23:30
+S17,Playground,playground,0:00:01:21
+S17,MessageNotUnderstood: GLMBrowser>>column:,pre-debugger,0:00:19:31
+S17,Array [10000],inspector,0:00:06:19
+S17,Glamorous Browser,example-browser,0:00:48:49
+S17,ZeroDivide,debugger,0:00:02:58
+S17,Array [1000],inspector,0:00:12:00
+S17,Time profiler,time-profiler,0:00:41:58
+S17,Senders or Users of chunkSize [5],method-browser,0:00:45:48
+S17,Implementors of chunkSize: [3],method-browser,0:00:37:20
+S17,Playground,playground,0:00:41:35
+S17,GLMTreeMorphModel>>#shouldFilterByAmount,system-browser,0:00:26:18
+S17,MorphTreeChangeRequest,system-browser,0:00:36:31
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:08:53
+S17,Glamorous Browser,example-browser,0:00:15:19
+S17,Senders or Users of pageSize [6],method-browser,0:00:45:55
+S17,Senders or Users of addNavigationPane: [2],method-browser,0:00:46:43
+S17,Time profiler,time-profiler,0:00:48:49
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:06:19
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:01:32
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:06:25
+S17,Implementors of chunkSize: [3],method-browser,0:00:45:16
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:22:03
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:07:39
+S17,Playground,playground,0:00:16:33
+S17,MessageNotUnderstood: GLMBrowser>>column:,pre-debugger,0:00:19:18
+S17,MorphTreeMorph>>#changeRequest:,system-browser,0:00:36:21
+S17,Glamorous Browser,example-browser,0:00:20:41
+S17,Accesses to amountToShowBlock [2],method-browser,0:00:29:58
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:07:51
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:12:00
+S17,MessageNotUnderstood: GLMCompositePresentation>>x,pre-debugger,0:00:20:50
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:08:23
+S17,GLMBrowser,system-browser,0:00:19:48
+S17,Glamorous Browser,example-browser,0:00:24:42
+S17,"Unknown variable: Collectio please correct, or cancel:",dialog,0:00:53:28
+S17,Window,system-browser,0:00:31:05
+S17,Senders or Users of GLMBrowser [15],method-browser,0:00:20:00
+S17,MorphTreePager,system-browser,0:00:47:40
+S17,Glamorous Browser,example-browser,0:00:13:31
+S17,Glamorous Browser,example-browser,0:00:13:17
+S17,Time profiler,time-profiler,0:00:54:05
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:09:52
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100')),inspector,0:00:07:10
+S17,Senders or Users of amountToShow [2],method-browser,0:00:30:06
+S17,Glamorous Browser,example-browser,0:00:25:12
+S17,GLMListingPresentation>>#showOnly:,system-browser,0:00:28:31
+S17,Senders or Users of MorphTreeChangeRequest [17],method-browser,0:00:35:43
+S17,NotFound: [ :each | each name = aSymbol ] not found in OrderedCollection,pre-debugger,0:00:20:23
+S17,PaginatedMorphTreeModel>>#chunkSize:,system-browser,0:00:33:54
+S17,Implementors of chunkSize: [3],method-browser,0:00:33:29
+S17,Playground,playground,0:00:01:50
+S17,Implementors of pageSize: [4],method-browser,0:00:45:19
+S17,Glamorous Browser,example-browser,0:00:13:38
+S17,DFlow,dflow,0:00:05:31
+S17,Glamorous Browser,example-browser,0:00:13:05
+S17,Instance variables in PaginatedMorphTreeMorph,dialog,0:00:46:34
+S17,"MessageNotUnderstood: receiver of new"" is nil""",pre-debugger,0:00:52:34
+S17,GLMMorphicListingRenderer>>#treeMorphFor:and:,system-browser,0:00:23:28
+S17,GLMTreeMorphModel>>#rootNodes,system-browser,0:00:31:46
+S17,Array [100000],inspector,0:00:07:40
+S17,Glamorous Browser,example-browser,0:00:14:18
+S17,Glamorous Browser,example-browser,0:00:41:58
+S17,Accesses to pager [4],method-browser,0:00:46:37
+S17,Instance variables in GLMListingPresentation,dialog,0:00:29:47
+S17,Inspector on an Array (#('1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16' '17' '18' '19' '20' '21' '22' '23' '24' '25' '26' '27' '28' '29' '30' '31' '32' '33' '34' '35' '36' '37' '38' '39' '40' '41' '42' '43' '44' '45' '46' '47' '48' '49' '50' '51' '52' '53' '54' '55' '56' '57' '58' '59' '60' '61' '62' '63' '64' '65' '66' '67' '68' '69' '70' '71' '72' '73' '74' '75' '76' '77' '78' '79' '80' '81' '82' '83' '84' '85' '86' '87' '88' '89' '90' '91' '92' '93' '94' '95' '96' '97' '98' '99' '100' '101' '102' '103' '104' '105' '106' '107' '108' '109' '110' '111' '112' '113' '114' '115' '116' '117' '118' '119' '120' '121' '122' '123' '124' '125' '126' '127' '128' '129' '130' '131' '132' '133' '134' '135' '136' '137' '138' '139' '140' '141' '142' '143' '144' '145' '146' '147' '148' '149' '150' '151' '152' '153' '154' '155' '156' '157' '158' '159' '160' '161' '162' '163' '164' '165' '166' '167' '168' '169' '170' '171' '172' '173' '174' '175' '176' '177' '178' '179' '180' '181' '182' '183' '184' '1 ...),inspector,0:00:06:45
+S17,Class search,dialog,0:00:28:34
+S17,Array [2000000],inspector,0:00:03:14
+S17,ZeroDivide,pre-debugger,0:00:02:56
+S17,Interval [10000],inspector,0:00:21:51
+S17,Error: Collection cannot have variable sized instances,pre-debugger,0:00:53:37
+S17,Warning,pre-debugger,0:00:52:24
+S17,Glamorous Browser,example-browser,0:00:21:09
+S17,PaginatedMorphTreeMorph>>#pager,system-browser,0:00:46:27
+S17,GLMSystemWindow,inspector,0:00:48:16
+S17,Implementors of chunkSize: [3],method-browser,0:00:34:41
+S17,Implementors of newTreeMorph [2],method-browser,0:00:30:57
+S17,Array [10000],inspector,0:00:05:27
+S17,Glamorous Browser,example-browser,0:00:48:15
+S17,PaginatedMorphTreeModel>>#setPageSize:,system-browser,0:00:35:37
+S17,SmallInteger,inspector,0:00:02:50
+S17,PaginatedMorphTreeModel>>#pageSize:,system-browser,0:00:39:52
+S17,PaginatedMorphTreeMorph,system-browser,0:00:45:26
+S17,MorphTreeChunkPager,system-browser,0:00:46:53
+S17,Glamorous Browser,example-browser,0:00:50:36
+S7,GLMUIThemeExtraIcons,system-browser,0:00:02:10
+S7,Implementors of analyze: [5],method-browser,0:00:37:14
+S7,GLMUIThemeExtraIcons,system-browser,0:00:01:11
+S7,PragmaMenuAndShortcutRegistrationItem>>#action,system-browser,0:00:21:15
+S7,MessageBrowser>>#initialize,system-browser,0:00:07:16
+S7,Halt,debugger,0:00:09:10
+S7,Accesses to className [2],method-browser,0:00:31:28
+S7,PragmaMenuBuilder,system-browser,0:00:12:02
+S7,Halt,debugger,0:00:17:00
+S7,Implementors of mouseDown: [59],method-browser,0:00:05:07
+S7,PragmaMenuBuilder,system-browser,0:00:29:38
+S7,String>>#translated,system-browser,0:00:24:20
+S7,MessageNotUnderstood: TextClassLink>>selector,debugger,0:00:29:43
+S7,"Unknown variable: this please correct, or cancel:",dialog,0:00:17:52
+S7,Halt,debugger,0:00:22:16
+S7,Instance variables in PragmaMenuAndShortcutRegistrationItem,dialog,0:00:21:26
+S7,TextMethodLink>>#actOnClick:for:in:editor:,system-browser,0:00:08:36
+S7,GLMUIThemeExtraIcons,system-browser,0:00:01:03
+S7,New Protocol,dialog,0:00:36:15
+S7,Users of GLMUIThemeExtraIcons [109],method-browser,0:00:01:07
+S7,DFlow,dflow,0:00:07:55
+S7,New Protocol,dialog,0:00:24:50
+S7,Halt,debugger,0:00:07:44
+S7,Senders of translated [530],method-browser,0:00:24:15
+S7,Senders of initialize [1463],method-browser,0:00:05:38
+S7,MenuRegistrationExample class>>#toolsOn:,system-browser,0:00:20:18
+S7,PragmaMenuBuilder>>#pragmaKeyword:,system-browser,0:00:25:46
+S7,Nautilus,system-browser,0:00:00:31
+S7,Question,dialog,0:00:14:19
+S7,PluggableTextMorphWithLimits,system-browser,0:00:03:10
+S7,Senders of glamorousRight [3],method-browser,0:00:00:52
+S7,TextClassLink>>#actOnClick:for:in:editor:,system-browser,0:00:09:03
+S7,GLMUIThemeExtraIcons,system-browser,0:00:01:44
+S7,Nautilus,system-browser,0:00:06:17
+S7,Senders or Users of action [44],method-browser,0:00:21:42
+S7,PragmaMenuBuilder,system-browser,0:00:26:18
+S7,Inspector on a PluggableTextMorphWithLimits(491782144),inspector,0:00:02:50
+S7,SmalltalkEditor class>>#smalltalkEditorShiftedMenuOn:,system-browser,0:00:09:22
+S7,Senders of commandKeyPressed [46],method-browser,0:00:25:42
+S7,Question,dialog,0:00:34:07
+S7,Halt,debugger,0:00:16:10
+S7,Method Name,dialog,0:00:19:33
+S7,New Protocol,dialog,0:00:35:56
+S7,Senders of analyze: [4],method-browser,0:00:37:17
+S7,Senders of glamorousRight [3],method-browser,0:00:00:56
+S7,Implementors of sendersOf: [2],method-browser,0:00:09:17
+S7,Inspector on a SpecWindow(778305536),inspector,0:00:05:59
+S7,Implementors of referencesTo: [4],method-browser,0:00:30:21
+S7,GLMUIThemeExtraIcons class>>#glamorousRight,system-browser,0:00:00:59
+S7,New Protocol,dialog,0:00:25:06
+S7,GLMUIThemeExtraIcons class>>#glamorousRight,system-browser,0:00:00:43
+S7,Implementors of shiftPressed [3],method-browser,0:00:15:33
+S7,PragmaMenuBuilder,system-browser,0:00:26:34
+S7,MessageNotUnderstood: TextClassLink>>selector,debugger,0:00:34:37
+S7,Accesses to classAndMethod [5],method-browser,0:00:37:06
+S7,PragmaMenuBuilder,system-browser,0:00:36:52
+S7,UserInputEvent>>#commandKeyPressed,system-browser,0:00:15:45
+S7,Inspector on a SpecWindow(778305536),inspector,0:00:06:50
+S7,HandMorph>>#shiftPressed,system-browser,0:00:15:37
+S7,Implementors of withSeparatorAfter [5],method-browser,0:00:21:07
+S7,Class search,dialog,0:00:06:23
+S7,Users of PragmaMenuBuilder [29],method-browser,0:00:36:56
+S7,Accesses to action [2],method-browser,0:00:21:29
+S5,PackageTreeNautilus,system-browser,0:00:19:20
+S5,NautilusUI>>#addMethod,system-browser,0:00:40:17
+S5,Nautilus,system-browser,0:00:01:38
+S5,Halt,debugger,0:00:33:27
+S5,Inspector on an UndefinedObject (nil),inspector,0:00:02:37
+S5,Halt,debugger,0:00:18:19
+S5,MessageNotUnderstood: HistoryNavigationPlugin>>[ :plugin | aBlock value: plugin model ui ],debugger,0:00:33:29
+S5,NautilusUI>>#buildTopPlugins,system-browser,0:00:38:40
+S5,Nautilus Plugins Manager,dialog,0:00:09:40
+S5,Nautilus Plugins Manager,dialog,0:00:01:16
+S5,Halt,debugger,0:00:17:09
+S5,RBFormatterTests,system-browser,0:00:00:15
+S5,NautilusUI>>#buildNavigationList,system-browser,0:00:13:43
+S5,Inspector on a PackageTreeNautilusUI,inspector,0:00:04:19
+S5,PackageTreeNautilusUI,system-browser,0:00:04:40
+S5,Senders or Users of uiClass [4],method-browser,0:00:05:09
+S5,Settings browser,settings-browser,0:00:02:00
+S5,NautilusUI,system-browser,0:00:08:52
+S5,NautilusUI,system-browser,0:00:19:33
+S5,Nautilus Plugins Manager,dialog,0:00:03:17
+S5,Halt,debugger,0:00:22:47
+S5,Nautilus Plugins Manager,dialog,0:00:01:30
+S5,NautilusUI>>#buildColumns:height:,system-browser,0:00:25:12
+S5,Inspector on an Array(an URLPlugin an URLPlugin an URLPlugin),inspector,0:00:15:14
+S5,NautilusUI>>#buildNavigationList,system-browser,0:00:25:23
+S5,MessageNotUnderstood: BlockClosure>>collectWithIndex:,debugger,0:00:33:30
+S5,Playground,playground,0:00:08:39
+S5,"navigation appears to be uninitialized at this point.Proceed anyway?",unknown,0:00:20:12
+S5,Halt,debugger,0:00:33:39
+S5,PackageTreeNautilus,system-browser,0:00:18:29
+S5,Nautilus Plugins Manager,dialog,0:00:27:27
+S5,Class search,dialog,0:00:27:34
+S5,MessageNotUnderstood: BlockClosure>>collectWithIndex:,debugger,0:00:33:43
+S5,Nautilus,system-browser,0:00:06:24
+S5,"MessageNotUnderstood: receiver of browsedEnvironment"" is nil""",debugger,0:00:08:31
+S5,Nautilus Plugins Manager,dialog,0:00:00:51
+S5,Nautilus,system-browser,0:00:22:07
+S5,Class search,dialog,0:00:18:32
+S5,Instance variables in NautilusUI,dialog,0:00:39:34
+S5,Nautilus,system-browser,0:00:15:00
+S5,Changes Browser,dialog,0:00:27:49
+S5,MessageNotUnderstood: HistoryNavigationPlugin>>[ :plugin | aBlock value: plugin model ui ],debugger,0:00:33:43
+S5,Inspector on a PackageTreeNautilus,inspector,0:00:18:58
+S5,Playground,playground,0:00:03:22
+S5,PackageTreeNautilus>>#defaultUIClass,system-browser,0:00:04:50
+S5,Nautilus>>#uiClass,system-browser,0:00:05:00
+S5,MessageNotUnderstood: HistoryNavigationPlugin>>getHistoryList,debugger,0:00:35:24
+S5,Nautilus,system-browser,0:00:01:27
+S5,Question,dialog,0:00:30:14
+S5,"MessageNotUnderstood: receiver of getHistoryList"" is nil""",debugger,0:00:35:55
+S5,NautilusUI>>#wrapHistory:,system-browser,0:00:42:07
+S5,Provide the following information,dialog,0:00:24:14
+S5,Window,system-browser,0:00:41:10
+S5,NautilusUI>>#setHistory:,system-browser,0:00:41:13
+S5,Halt,debugger,0:00:28:07
+S5,Nautilus,system-browser,0:00:07:26
+S5,MessageNotUnderstood: HistoryNavigationPlugin>>ui,debugger,0:00:28:17
+S5,Halt,debugger,0:00:21:14
+S5,"MessageNotUnderstood: receiver of beginsWith:"" is nil""",debugger,0:00:30:52
+S5,"MessageNotUnderstood: receiver of attachKeymapCategory:targetting:"" is nil""",debugger,0:00:20:17
+S5,Recent versions of display,history-browser,0:00:35:12
+S5,Inspector on a CompiledMethod (NautilusUI>>#buildColumns:height:),inspector,0:00:25:07
+S5,HistoryNavigationPlugin>>#sendToUi:,system-browser,0:00:19:10
+S5,Inspector on a CompiledMethod (NautilusUI>>#buildColumns:height:),inspector,0:00:21:55
+S5,Playground,playground,0:00:21:34
+S5,Class search,dialog,0:00:27:01
+S5,Inspector on an UndefinedObject (nil),inspector,0:00:07:54
+S5,Nautilus Plugins Manager,dialog,0:00:26:10
+S5,"MessageNotUnderstood: receiver of getHistoryList"" is nil""",debugger,0:00:36:59
+S5,HistoryNavigationPlugin>>#display,system-browser,0:00:03:26
+S5,"navigation appears to be uninitialized at this point.Proceed anyway?",unknown,0:00:21:09
+S5,"MessageNotUnderstood: receiver of beginsWith:"" is nil""",unknown,0:00:20:10
+S5,"MessageNotUnderstood: receiver of layoutFrame:"" is nil""",debugger,0:00:20:56
+S5,Choose color,dialog,0:00:04:10
+S5,Nautilus Plugins Manager,dialog,0:00:11:51
+S5,Question,dialog,0:00:24:06
+S5,NautilusUI>>#getHistoryList,system-browser,0:00:14:41
+S5,Nautilus Plugins Manager,dialog,0:00:00:31
+S5,Playground,playground,0:00:15:06
+S5,AbstractNautilusPlugin class,system-browser,0:00:10:51
+S5,"MessageNotUnderstood: receiver of layoutFrame:"" is nil""",debugger,0:00:20:40
+S5,MessageNotUnderstood: HistoryNavigation>>getHistoryList,debugger,0:00:26:24
+S5,Nautilus class>>#openBrowserView:label:,system-browser,0:00:05:17
+S5,ACDSenderWhereIsDebugAction>>#id,system-browser,0:00:38:05
+S5,Inspector on a BlockClosure ([ :plugin | aBlock value: plugin model ui ]),inspector,0:00:34:30
+S5,Implementors of value: [87],method-browser,0:00:29:57
+S5,HistoryNavigation>>#display,system-browser,0:00:16:46
+S5,Provide the following information,dialog,0:00:27:47
+S5,NautilusUI>>#currentHistoryIndex,system-browser,0:00:14:44
+S5,Nautilus,system-browser,0:00:08:43
+S5,Debug it,unknown,0:00:06:26
+S5,Playground,playground,0:00:06:19
+S5,NautilusUI>>#buildNavigationList,system-browser,0:00:39:25
+S5,Nautilus,system-browser,0:00:01:04
+S5,Inspector on a LabelMorph(132644864)'',inspector,0:00:02:53
+S5,"navigation appears to be uninitialized at this point.Proceed anyway?",unknown,0:00:20:34
+S5,Inspector on an AbstractNautilusPlugin class (AbstractNautilusPlugin),inspector,0:00:09:46
+S5,The message #sendToUi: has 1 sender,dialog,0:00:35:05
+S5,MessageNotUnderstood: HistoryNavigationPlugin>>currentHistoryIndex,debugger,0:00:37:20
+S5,Finder,finder,0:00:12:37
+S9,Halt,debugger,0:00:23:59
+S9,Inspector on a RubEditingArea(300417024),inspector,0:00:16:22
+S9,Playground,playground,0:00:40:26
+S9,Playground,playground,-0:00:00:13
+S9,Halt,debugger,0:00:49:33
+S9,Halt,debugger,0:00:47:24
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:18:20
+S9,Halt,debugger,0:00:41:10
+S9,Halt,debugger,0:00:35:21
+S9,ncv appears to be unused in this method. OK to remove it?,dialog,0:00:13:12
+S9,Halt,debugger,0:00:46:49
+S9,Halt,debugger,0:00:41:13
+S9,BlockCannotReturn: Block cannot return,debugger,0:00:35:35
+S9,Class,system-browser,0:00:12:11
+S9,Transcript,transcript,0:00:01:37
+S9,Inspector on an OCMethodScope 3,inspector,0:00:50:26
+S9,newContext appears to be unused in this method. OK to remove it?,dialog,0:00:13:30
+S9,Nautilus,system-browser,0:00:08:39
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:13:24
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:11:36
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:47:31
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:18:50
+S9,Playground,playground,0:00:44:22
+S9,Error: Instances of UndefinedObject are not indexable,debugger,0:00:30:45
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:04:11
+S9,Inspector on an OCTempVariable (v2),inspector,0:00:33:13
+S9,Inspector on a ToggleMenuItemMorph(447479808)'yes',inspector,0:00:02:24
+S9,Inspector on an OCTempVariable (v2),inspector,0:00:50:56
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:48:50
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:49:32
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:40:36
+S9,PopupChoiceDialogWindow>>#initialize,system-browser,0:00:23:21
+S9,Inspector on an OrderedCollection(RBTemporaryNode(v) RBTemporaryNode(v2)),inspector,0:00:33:37
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:41:52
+S9,Error: Instances of UndefinedObject are not indexable,debugger,0:00:31:14
+S9,Halt,debugger,0:00:41:11
+S9,Inspector on a PopupChoiceDialogWindow(2621440),inspector,0:00:04:42
+S9,Inspector on a PopupChoiceDialogWindow(1032847360),inspector,0:00:19:05
+S9,Halt,debugger,0:00:47:03
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:17:50
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:17:57
+S9,"Inspector on a RBSequenceNode (RBSequenceNode(| v v2 |^ v := 1))",inspector,0:00:54:07
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:17:36
+S9,"Inspector on a RBSequenceNode (RBSequenceNode(| v v2 |^ v := 1))",inspector,0:00:50:35
+S9,newContext appears to be unused in this method. OK to remove it?,dialog,0:00:13:18
+S9,MessageNotUnderstood: CompilationContext>>body,debugger,0:00:30:58
+S9,Playground,playground,0:00:08:52
+S9,Error: Instances of UndefinedObject are not indexable,debugger,0:00:28:36
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:02:14
+S9,Process Browser,process-browser,0:00:22:38
+S9,DFlow,dflow,0:00:38:47
+S9,Inspector on a SmallInteger (1),inspector,0:00:11:41
+S9,OCUnusedVariableWarning>>#defaultAction,system-browser,0:00:42:20
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:48:43
+S9,inspect whom? (deepest at top),dialog,0:00:02:22
+S9,User Interrupt,user-interruption,0:00:13:58
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:11:47
+S9,Halt,debugger,0:00:47:59
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:35:32
+S9,OCUnusedVariableWarning,system-browser,0:00:25:22
+S9,Halt,debugger,0:00:47:35
+S9,Halt,debugger,0:00:48:52
+S9,Where do you want to compile this trait method?,dialog,0:00:11:31
+S9,User Interrupt,user-interruption,0:00:10:24
+S9,inspect whom? (deepest at top),dialog,0:00:16:18
+S9,Inspector on a ToggleMenuItemMorph(724303872)'yes',inspector,0:00:04:22
+S9,Where do you want to compile this trait method?,dialog,0:00:11:05
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:18:12
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:10:42
+S9,Error: Instances of UndefinedObject are not indexable,debugger,0:00:27:37
+S9,Halt,debugger,0:00:48:46
+S9,inspect whom? (deepest at top),dialog,0:00:04:32
+S9,Playground,playground,0:00:12:01
+S9,Inspector on a PluggableButtonMorph(1051197440),inspector,0:00:19:25
+S9,Inspector on an OCASTSemanticAnalyzer,inspector,0:00:29:43
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:10:45
+S9,Class>>#compileAll,system-browser,0:00:08:55
+S9,Halt,debugger,0:00:41:04
+S9,RubAbstractTextArea,system-browser,0:00:16:33
+S9,inspect whom? (deepest at top),dialog,0:00:19:18
+S9,Deprecation,system-browser,0:00:44:17
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:10:01
+S9,Halt,debugger,0:00:46:42
+S9,ncv appears to be unused in this method. OK to remove it?,dialog,0:00:13:29
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:04:17
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:11:26
+S9,choose a class to browse...,dialog,0:00:12:06
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:46:47
+S9,Finder,finder,0:00:05:06
+S9,v2 appears to be unused in this method. OK to remove it?,dialog,0:00:41:20
+S9,Where do you want to compile this trait method?,dialog,0:00:11:16
+S6,Inspector on a RubSmalltalkMethodEditorModel,inspector,0:00:20:39
+S6,AbstractNautilusUI>>#buildNewSourceTextArea,system-browser,0:00:07:44
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,pre-debugger,0:00:19:17
+S6,RubScrolledTextMorph>>#setText:,system-browser,0:00:21:24
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,pre-debugger,0:00:22:24
+S6,DFlow,dflow,0:00:00:17
+S6,AbstractNautilusUI>>#lockTextArea,system-browser,0:00:38:03
+S6,RubScrolledTextModel>>#getText,system-browser,0:00:20:46
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,pre-debugger,0:00:19:14
+S6,PluggableTextMorphWithLimits,system-browser,0:00:28:16
+S6,Window,system-browser,0:00:28:35
+S6,AbstractNautilusUI,system-browser,0:00:07:11
+S6,Method editor with shout,example-browser,0:00:02:27
+S6,Senders of textMorphClass [2],method-browser,0:00:06:55
+S6,MessageNotUnderstood: PackageTreeNautilusUI>>hola,pre-debugger,0:00:39:26
+S6,Recent versions of RubScrolledTextMorph>>getTextFromModel [4],history-browser,0:00:25:54
+S6,"MessageNotUnderstood: receiver of vResizing:"" is nil""",pre-debugger,0:00:11:46
+S6,AbstractNautilusUI>>#buildNewSourceTextArea,system-browser,0:00:09:37
+S6,TextMorphForEditView,system-browser,0:00:03:38
+S6,Nautilus,system-browser,0:00:19:34
+S6,MessageNotUnderstood: RubSmalltalkMethodEditorModel>>vResizing:,pre-debugger,0:00:17:55
+S6,MessageNotUnderstood: RubMethodEditingExample class>>textModel,pre-debugger,0:00:16:02
+S6,RubScrolledTextMorph,system-browser,0:00:33:31
+S6,Senders of changeText: [2],method-browser,0:00:29:56
+S6,Senders of buildNewSourceTextArea [2],method-browser,0:00:13:05
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,pre-debugger,0:00:18:51
+S6,MessageNotUnderstood: RubSmalltalkMethodEditorModel>>vResizing:,pre-debugger,0:00:18:21
+S6,Nautilus,system-browser,0:00:18:50
+S6,AST-Tests-Core,system-browser,0:00:36:38
+S6,AbstractNautilusUI>>#toggleShowComment,system-browser,0:00:12:02
+S6,Method editor with shout,example-browser,0:00:02:12
+S6,Inspector on a RubScrolledTextMorph(59768832),inspector,0:00:21:12
+S6,MessageNotUnderstood: PackageTreeNautilusUI>>hola,debugger,0:00:39:42
+S6,PluggableTextMorph>>#textMorphClass,system-browser,0:00:06:35
+S6,Inspector on a RubScrolledTextMorph(434634752),inspector,0:00:02:57
+S6,Senders of buildNewSourceTextArea [2],method-browser,0:00:37:59
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,debugger,0:00:19:36
+S6,System Browser,system-browser,0:00:00:44
+S6,AIMethodContext>>#printOn:,system-browser,0:00:26:23
+S6,Nautilus,system-browser,0:00:35:40
+S6,Playground,playground,0:00:00:41
+S6,MessageNotUnderstood: RubScrolledTextMorph>>getText,pre-debugger,0:00:19:35
+S6,Inspector on a RubScrolledTextMorph(998768640),inspector,0:00:21:01
+S6,PluggableTextMorph>>#getText,system-browser,0:00:40:19
+S6,MultipleMethodsEditor,system-browser,0:00:13:23
+S6,AbstractNautilusUI>>#buildCodePane,system-browser,0:00:13:18
+S6,RubMethodEditingExample>>#newScrolledText,system-browser,0:00:00:54
+S6,Method editor with shout,example-browser,0:00:01:56
+S6,MessageNotUnderstood: PackageTreeNautilusUI>>hola,pre-debugger,0:00:39:40
+S6,Question,dialog,0:00:23:17
+S6,Rubric workspace example,example-browser,0:00:01:28
+S6,AnnouncementSubscription,system-browser,0:00:36:57
+S6,AbstractNautilusUI>>#sourceCodeFrom:,system-browser,0:00:31:54
+S16,RTPolygon>>#updateFor:trachelShape:,system-browser,0:00:07:58
+S16,Inspector on a ByteSymbol (#value),inspector,0:00:41:27
+S16,Playground,playground,0:00:04:45
+S16,Inspector on a RTView,inspector,0:00:20:36
+S16,Inspector on a RTPolygon,inspector,0:00:04:32
+S16,Inspector on a RTView,inspector,0:00:19:05
+S16,Inspector on a RTView,inspector,0:00:23:33
+S16,Question,dialog,0:00:15:50
+S16,RTGlobalBuilder>>#executeOn:,system-browser,0:00:36:55
+S16,RTAbstractFlowLayout>>#alignCenter,system-browser,0:00:15:08
+S16,Inspector on a ByteSymbol (#value),inspector,0:00:42:31
+S16,MessageNotUnderstood: RTKiviatElement>>adaptToNumber:andSend:,debugger,0:00:30:11
+S16,Playground,playground,0:00:00:10
+S16,Inspector on a RTGlobalBuilder,inspector,0:00:36:52
+S16,RTShapeTest,system-browser,0:00:08:40
+S16,Inspector on a RTView,inspector,0:00:18:50
+S16,Inspector on a RTView,inspector,0:00:03:44
+S16,Inspector on a ByteSymbol (#value),inspector,0:00:41:46
+S16,DFlow,dflow,0:00:00:06
+S16,Inspector on a RTView,inspector,0:00:05:13
+S16,Roassal examples browser,example-browser,0:00:13:12
+S16,Playground,playground,0:00:02:56
+S16,Inspector on a BlockClosure ([ :e | e kiviatNode shapeNode color: Color red ]),inspector,0:00:41:55
+S16,Inspector on a RTView,inspector,0:00:03:00
+S16,RTKiviatBuilder,system-browser,0:00:14:30
+S16,Inspector on an OrderedCollection(a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement a RTElement),inspector,0:00:41:01
+S16,Inspector on a RTView,inspector,0:00:23:46
+S16,Inspector on a RTView,inspector,0:00:30:30
+S16,Inspector on a RTPolygon,inspector,0:00:09:30
+S16,Inspector on a RTView,inspector,0:00:13:24
+S16,Inspector on a RTView,inspector,0:00:27:23
+S16,"Error: This block accepts 1 argument, but was called with 0 arguments.",debugger,0:00:42:47
+S16,Inspector on a RTView,inspector,0:00:30:39
+S16,Inspector on a BlockClosure ([ :e | e kiviatNode shapeNode color: Color red ]),inspector,0:00:43:20
+S16,Inspector on a RTView,inspector,0:00:03:05
+S16,Inspector on a RTView,inspector,0:00:06:38
+S16,Inspector on a RTView,inspector,0:00:01:00
+S16,MessageNotUnderstood: SmallInteger>>do:,debugger,0:00:05:05
+S16,Inspector on a ByteSymbol (#value),inspector,0:00:43:33
+S16,Provide the following information,dialog,0:00:00:19
+S16,Inspector on a BlockClosure ([ :e | e kiviatNode shapeNode color: Color red ]),inspector,0:00:43:41
+S16,MessageNotUnderstood: RTKiviatElement>>model,debugger,0:00:30:18
+S16,Inspector on a RTGlobalBuilder,inspector,0:00:21:29
+S16,Inspector on a RTView,inspector,0:00:31:48
+S16,Inspector on a RTBox,inspector,0:00:09:55
+S16,Inspector on a RTView,inspector,0:00:00:51
+S16,"Error: This block accepts 1 argument, but was called with 0 arguments.",debugger,0:00:39:41
+S10,Halt,pre-debugger,0:00:08:14
+S10,User Interrupt,user-interruption,0:00:01:00
+S10,Playground,playground,0:00:00:39
+S10,User Interrupt,user-interruption,0:00:19:20
+S10,WorldState>>#doOneCycleNowFor:,system-browser,0:00:03:05
+S10,User Interrupt,user-interruption,0:00:18:46
+S10,Halt,debugger,0:00:09:47
+S10,Inspector on a Character class (Character),inspector,0:00:11:02
+S10,Nautilus,system-browser,0:00:00:24
+S10,Halt,pre-debugger,0:00:06:22
+S10,User Interrupt,user-interruption,0:00:09:40
+S10,User Interrupt,user-interruption,0:00:18:17
+S10,Window,unknown,0:00:06:45
+S10,Inspector on a Character ($e),inspector,0:00:11:42
+S10,Halt,pre-debugger,0:00:09:40
+S10,Inspector on an UndefinedObject (nil),inspector,0:00:00:45
+S10,HandMorph>>#generateKeyboardEvent:,system-browser,0:00:04:47
+S10,Nautilus,system-browser,0:00:00:16
+S10,Halt,debugger,0:00:06:32
+S10,Window,unknown,0:00:06:35
+S10,DFlow,dflow,0:00:00:11
+S10,User Interrupt,user-interruption,0:00:08:14
+S10,Playground,playground,0:00:10:55
+S10,Character class>>#digitValue:,system-browser,0:00:11:05
+S10,RubScrolledTextMorph,system-browser,0:00:24:34
+S10,Halt,pre-debugger,0:00:36:26
+S10,Morphic-Core,system-browser,0:00:36:52
+S10,GTPlayground,system-browser,0:00:22:18
+S10,Halt,pre-debugger,0:00:29:07
+S10,Users of class RubScrolledTextMorph [15],method-browser,0:00:25:16
+S10,MouseEvent>>#isMouse,system-browser,0:00:37:02
+S10,Halt,debugger,0:00:37:57
+S10,Inspector on a WeakArray(a DFKeyboardEventsListener),inspector,0:00:31:45
+S10,Inspector on an UndefinedObject (nil),inspector,0:00:33:45
+S10,Inspector on a False (false),inspector,0:00:32:45
+S10,Window,unknown,0:00:36:35
+S10,Inspector on a Point ((310@690.0)),inspector,0:00:29:50
+S10,DFlow,dflow,0:00:21:23
+S10,Inspector on a True (true),inspector,0:00:33:33
+S10,Senders of beForSmalltalkScripting [5],method-browser,0:00:26:35
+S10,Playground,playground,0:00:21:58
+S10,HandMorph>>#generateKeyboardEvent:,system-browser,0:00:28:09
+S10,Window,unknown,0:00:36:08
+S10,Inspector on a WorldMorph(511705088) [world],inspector,0:00:39:39
+S10,Halt,pre-debugger,0:00:37:53
+S10,Halt,debugger,0:00:29:11
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPVariable inside1 : RBBlockNode([ 10 ]) LRPVariable inside2 : RBBlockNode([ 10 ]) LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookal ...)",inspector,0:00:38:55
+S15,Create a new package,dialog,0:00:02:32
+S15,Repository: http://smalltalkhub.com/mc/jfabry/LiveRobotProgramming/main/,history-browser,0:00:03:00
+S15,"Inspector on a LRPMachine (LRPMachine lookalgo : an Array(LRPVariable time : RBBlockNode([ (LRPScopeVariables at: #maxlook) value value ]) LRPComment : #('timeout transitions') LRPTimeoutTransition t-returnleft : lookleft->returnleft on time LRPTimeoutTransition t-returnright : lookright->returnright on time LRPTimeoutTransition t-lookright : returnleft->lookright on time LRPTimeoutTransition t-lookleft : returnright->lookleft on time LRPState lookleft : an Array(LRPOnEntry : RBBlockNode([ rightmotor forward ])) LRPState returnleft : an Array(LRPOnEntry : RBBlockNode([ rightmotor back ]) LRPOnExit : RBBlockNode([ rightmotor stop ])) LRPState lookright : an Array(LRPOnEntry : RBBlockNode([ leftmotor forward ])) LRPState returnright : an Array(LRPOnEntry : RBBlockNode([ leftmotor back ]) LRPOnExit : RBBlockNode([ leftmotor stop.time := time * 2 ]))))",inspector,0:00:43:49
+S15,LRPInterpreter,system-browser,0:00:21:22
+S15,variables appears to be unused in this method. OK to remove it?,dialog,0:00:41:44
+S15,Inspector on an Association ('hola'->2),inspector,0:00:30:31
+S15,Playground,playground,0:00:11:55
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookalgo : an Array(LRPVariable time : RBBlockNode([ (LRPScopeVariables at: #maxlook) valu ...)",inspector,0:00:19:58
+S15,ShouldNotImplement: #add: should not have been implemented in Array,debugger,0:00:36:54
+S15,LRPState>>#machines,system-browser,0:00:37:57
+S15,"Inspector on an Array(LRPVariable leftmotor : RBBlockNode([ motor1 ]) LRPVariable rightmotor : RBBlockNode([ motor2 ]) LRPVariable bumper : RBBlockNode([ sensor1 ]) LRPVariable light : RBBlockNode([ sensor2 ]) LRPComment : #('need to map ST code sending messages to more PhaROS type style of code') LRPComment : #(' calibration ''constants'' ') LRPVariable maxlook : RBBlockNode([ 100 ]) LRPVariable lightthresh : RBBlockNode([ 128 ]) LRPVariable backdist : RBBlockNode([ 10 ]) LRPVariable turndist : RBBlockNode([ 100 ]) LRPComment : #(' a state machine with name follower') LRPComment : #(' see below how to kick it into action') LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.right ...",inspector,0:00:26:19
+S15,Error: only integers should be used as indices,debugger,0:00:31:05
+S15,Live Robot Programming UI,unknown,0:00:00:23
+S15,Halt,debugger,0:00:32:05
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookalgo : an Array(LRPVariable time : RBBlockNode([ (LRPScopeVariables at: #maxlook) valu ...)",inspector,0:00:30:02
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookalgo : an Array(LRPVariable time : RBBlockNode([ (LRPScopeVariables at: #maxlook) valu ...)",inspector,0:00:29:53
+S15,Monticello Browser,repository-browser,0:00:02:52
+S15,TestFailure: Assertion failed,debugger,0:00:42:36
+S15,Halt,debugger,0:00:38:34
+S15,Monticello Browser,repository-browser,0:00:02:39
+S15,Inspector on a LRPInterpreter,inspector,0:00:26:12
+S15,Error: only integers should be used as indices,debugger,0:00:30:57
+S15,MessageNotUnderstood: BlockClosure>>machines,debugger,0:00:41:50
+S15,DFlow,dflow,0:00:00:17
+S15,Accesses to runningAST [3],method-browser,0:00:23:10
+S15,Halt,debugger,0:00:11:13
+S15,LRPMachine>>#allVariables,system-browser,0:00:01:41
+S15,"MessageNotUnderstood: receiver of allVariables"" is nil""",debugger,0:00:45:47
+S15,LRPInterpretationTests class>>#programTest,system-browser,0:00:40:45
+S15,Inspector on an Array('leftmotor'->a NewValueHolder[ nil ] 'backdist'->a NewValueHolder[ 10 ] 'bumper'->a NewValueHolder[ nil ] 'turndist'->a NewValueHolder[ 100 ] 'lightthresh'->a NewValueHolder[ 128 ] 'maxlook'->a NewValueHolder[ 100 ] 'rightmotor'->a NewValueHolder[ nil ] 'light'->a NewValueHolder[ nil ]),inspector,0:00:30:11
+S15,Live Robot Programming UI,unknown,0:00:33:19
+S15,Halt,debugger,0:00:26:07
+S15,LRPInterpreter>>#variablesInScopeOf:,system-browser,0:00:07:23
+S15,Playground,playground,0:00:05:27
+S15,Playground,playground,0:00:30:24
+S15,TestFailure: Assertion failed,debugger,0:00:35:44
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookalgo : an Array(LRPVariable time : RBBlockNode([ (LRPScopeVariables at: #maxlook) valu ...)",inspector,0:00:19:52
+S15,Halt,debugger,0:00:19:30
+S15,LRP Errors,unknown,0:00:00:23
+S15,Nautilus,system-browser,0:00:31:22
+S15,Halt,debugger,0:00:45:39
+S15,LRPInterpretationTests>>#testVariableSanity,system-browser,0:00:01:09
+S15,parsedProgram appears to be unused in this method. OK to remove it?,dialog,0:00:25:16
+S15,Inspector on a LRPInterpreter,inspector,0:00:19:39
+S15,LRP Errors,unknown,0:00:33:19
+S15,Inspector on a LRPInterpreter,inspector,0:00:38:53
+S15,LRPInterpretationTests>>#testVariableOrderNestedMachine,system-browser,0:00:32:23
+S15,variables appears to be unused in this method. OK to remove it?,dialog,0:00:42:03
+S15,"Inspector on a LRPMachine (LRPMachine follower : an Array(LRPVariable inside1 : RBBlockNode([ 10 ]) LRPVariable inside2 : RBBlockNode([ 10 ]) LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.rightmotor stop ])) LRPComment : #('a transition triggered by outofline event') LRPComment : #(' from moving state to looking state') LRPComment : #(' we call it tlooking') LRPTransition tlooking : moving->looking on outofline LRPTransition tmoving : looking->moving on intheline LRPComment : #('events happen whenever their condition evaluates to true') LRPEvent outofline : RBBlockNode([ (light read > lightthresh) + 10 ]) LRPEvent intheline : RBBlockNode([ (light read < lightthresh) - 10 ]) LRPState looking : an Array(LRPMachine lookal ...)",inspector,0:00:44:00
+S15,Halt,debugger,0:00:43:40
+S15,Inspector on an Array (#()),inspector,0:00:20:09
+S15,TestFailure: Assertion failed,debugger,0:00:14:50
+S15,"Inspector on an Array(LRPVariable leftmotor : RBBlockNode([ motor1 ]) LRPVariable rightmotor : RBBlockNode([ motor2 ]) LRPVariable bumper : RBBlockNode([ sensor1 ]) LRPVariable light : RBBlockNode([ sensor2 ]) LRPComment : #('need to map ST code sending messages to more PhaROS type style of code') LRPComment : #(' calibration ''constants'' ') LRPVariable maxlook : RBBlockNode([ 100 ]) LRPVariable lightthresh : RBBlockNode([ 128 ]) LRPVariable backdist : RBBlockNode([ 10 ]) LRPVariable turndist : RBBlockNode([ 100 ]) LRPComment : #(' a state machine with name follower') LRPComment : #(' see below how to kick it into action') LRPMachine follower : an Array(LRPState moving : an Array(LRPComment : #(' what to do when entering the state. always completely executed') LRPComment : #(' [] is a Smalltalk Block') LRPOnEntry : RBBlockNode([ leftmotor forward.rightmotor forward ]) LRPComment : #(' what to do when leaving the state. always completely executed') LRPOnExit : RBBlockNode([ leftmotor stop.right ...",inspector,0:00:27:25
+S8,NamedHolder>>#doesNotUnderstand:,system-browser,0:00:37:07
+S8,MessageNotUnderstood: Array>>withAllSubclasses,debugger,0:00:56:34
+S8,Senders of descriptionContainer [5],method-browser,0:00:38:34
+S8,Implementors of display: [3],method-browser,0:00:13:24
+S8,Glamorous Browser,example-browser,0:00:51:34
+S8,User Interrupt,user-interruption,0:00:04:22
+S8,Glamorous Browser,example-browser,0:00:49:27
+S8,Glamorous Browser,example-browser,0:00:03:06
+S8,Playground,playground,0:00:26:42
+S8,Playground,playground,0:00:07:35
+S8,Glamorous Browser,example-browser,0:00:06:02
+S8,Glamorous Browser,example-browser,0:00:40:53
+S8,Glamorous Browser,example-browser,0:00:02:29
+S8,NonBooleanReceiver: proceed for truth.,debugger,0:00:49:06
+S8,Glamorous Browser,example-browser,0:00:01:53
+S8,Glamorous Browser,example-browser,0:00:21:13
+S8,Glamorous Browser,example-browser,0:00:03:02
+S8,Glamorous Browser,example-browser,0:00:07:43
+S8,Glamorous Browser,example-browser,0:00:51:07
+S8,Glamorous Browser,example-browser,0:00:59:09
+S8,Glamorous Browser,example-browser,0:00:14:03
+S8,MessageNotUnderstood: GLMFinder>>asciiValue,debugger,0:00:01:27
+S8,Glamorous Browser,example-browser,0:00:12:54
+S8,Implementors of openOn: [36],method-browser,0:00:02:11
+S8,Glamorous Browser,example-browser,0:00:35:03
+S8,Instance variables in GLMPresentation,dialog,0:00:18:23
+S8,GLMPresentation>>#slowDisplay:for:,system-browser,0:00:17:39
+S8,Playground,playground,0:00:20:10
+S8,PPExpressionParser>>#buildOn:,system-browser,0:00:02:04
+S8,"Unknown variable: browser please correct, or cancel:",dialog,0:00:58:49
+S8,New Protocol,dialog,0:00:11:42
+S8,Glamorous Browser,example-browser,0:00:45:24
+S8,Changes Browser,dialog,0:00:40:11
+S8,Choose,dialog,0:00:40:07
+S8,"MessageNotUnderstood: receiver of do:"" is nil""",debugger,0:01:04:17
+S8,GLMListPresentation,system-browser,0:00:09:24
+S8,Object>>#glamourValue:,system-browser,0:00:16:24
+S8,Object>>#glamourValueWithArgs:,system-browser,0:00:16:53
+S8,Playground,playground,0:00:47:59
+S8,Glamorous Browser,example-browser,0:00:13:07
+S8,GLMExamplesBrowser class,system-browser,0:00:00:18
+S8,BlockClosure>>#timeToRun,system-browser,0:00:29:27
+S8,Implementors of doesNotUnderstand: [39],method-browser,0:00:39:41
+S8,GLMRoassal2Presentation>>#slowPainting:for:,system-browser,0:00:54:08
+S8,Question,dialog,0:00:17:49
+S8,Glamorous Browser,example-browser,0:00:52:14
+S8,Glamorous Browser,example-browser,0:00:49:04
+S8,Playground,playground,0:00:01:10
+S8,Glamorous Browser,example-browser,0:00:01:44
+S8,Glamorous Browser,example-browser,0:01:01:41
+S8,Implementors of openOn: [36],method-browser,0:00:01:57
+S8,Glamorous Browser,example-browser,0:00:04:18
+S8,Object>>#glamourValueWithArgs:,system-browser,0:00:32:06
+S8,Glamorous Browser,example-browser,0:00:45:11
+S8,"MessageNotUnderstood: receiver of do:"" is nil""",debugger,0:01:01:43
+S8,Glamorous Browser,example-browser,0:00:21:55
+S8,Glamorous Browser,example-browser,0:00:13:18
+S8,GLMBasicExamples>>#treeWithTags,system-browser,0:00:15:10
+S8,Glamorous Browser,example-browser,0:00:51:17
+S8,MessageNotUnderstood: NamedHolder>>description,debugger,0:00:38:22
+S8,Glamorous Browser,example-browser,0:00:25:48
+S8,Glamorous Browser,example-browser,0:00:00:45
+S8,Glamorous Browser,example-browser,0:00:13:50
+S8,"MessageNotUnderstood: receiver of do:"" is nil""",debugger,0:01:01:57
+S8,MessageNotUnderstood: SmallInteger>>isByteString,debugger,0:00:35:15
+S8,Glamorous Browser,example-browser,0:00:57:40
+S8,GLMPresentation>>#if:display:else:,system-browser,0:01:02:58
+S8,Inspector on a GLMCompositePresentation(id=51118080 title=nil pane=a GLMPane(691798016 root)),inspector,0:00:12:45
+S8,Glamorous Browser,example-browser,0:00:12:45
+S8,"Unknown selector, pleaseconfirm, correct, or cancel",dialog,0:01:02:29
+S8,Glamorous Browser,example-browser,0:00:52:33
+S8,Glamorous Browser,example-browser,0:00:09:04
+S8,Object>>#glamourValue:,system-browser,0:01:03:35
+S8,Glamorous Browser,example-browser,0:00:51:53
+S8,Glamorous Browser,example-browser,0:00:56:33
+S8,MessageNotUnderstood: False>>negated,debugger,0:00:49:28
+S8,Playground,playground,0:00:12:11
+S8,Glamorous Browser,example-browser,0:00:13:56
+S8,Senders or Users of roassal2 [43],method-browser,0:00:53:57
+S8,Glamorous Browser,example-browser,0:00:44:27
+S8,Accesses to transformation [2],method-browser,0:00:18:28
+S8,MessageNotUnderstood: SmallInteger>>isByteString,debugger,0:00:35:33
+S8,Glamorous Browser,example-browser,0:00:03:32
+S8,GLMCompositePresentation>>#list,system-browser,0:00:09:13
+S8,Playground,playground,0:00:54:39
+S8,Glamorous Browser,example-browser,0:00:38:17
+S8,Playground,playground,0:01:00:44
+S8,Senders or Users of roassal2 [42],method-browser,0:00:56:50
+S8,Inspector on a GLMCompositePresentation(id=309329920 title=nil pane=a GLMPane(343670784 root)),inspector,0:00:12:51
+S8,Inspector on a GLMActionListPresentation(id=787742720 title=nil pane=a GLMPane(414711808 one)),inspector,0:00:00:51
+S8,MessageNotUnderstood: SmallInteger>>asciiValue,debugger,0:00:01:44
+S8,Glamorous Browser,example-browser,0:00:03:40
+S8,Inspector on a GLMCompositePresentation(id=646447104 title=nil pane=a GLMPane(270532608 root)),inspector,0:00:09:04
+S8,Glamorous Browser,example-browser,0:00:52:00
+S8,Implementors of glamourValueWithArgs: [8],method-browser,0:00:16:59
+S8,Glamorous Browser,example-browser,0:00:14:19
+S8,Glamorous Browser,example-browser,0:00:59:48
+S8,Find & Replace,dialog,0:00:15:22
+S8,Glamorous Browser,example-browser,0:00:05:42
+S8,Glamorous Browser,example-browser,0:00:39:02
+S8,Glamorous Browser,example-browser,0:01:04:16
+S8,Senders or Users of roassal2 [42],method-browser,0:00:55:17
+S8,Implementors of transformation: [4],method-browser,0:00:13:29
+S8,Senders or Users of transformation [9],method-browser,0:00:31:32
+S8,Glamorous Browser,example-browser,0:00:56:19
+S8,Implementors of display: [3],method-browser,0:00:14:47
+S8,Class search,dialog,0:00:16:25
+S8,GLMMagrittePersonExample>>#descriptionContainer,system-browser,0:00:38:35
+S8,Glamorous Browser,example-browser,0:00:03:51
+S8,Implementors of display: [3],method-browser,0:00:08:48
+S8,Inspector on an UndefinedObject (nil),inspector,0:01:01:51
