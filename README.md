@@ -1,3 +1,5 @@
+[//]: # (-*- coding: utf-8-unix ; mode: markdown ; font-lock-multiline: t ; eval: (auto-fill-mode -1) ; eval: (flyspell-mode 1) ; eval: (visual-line-mode 1) -*-)
+
 # The Road to Live Programming: Insights From the Practice
 
 This part of the repository includes data related to a research article:
@@ -12,12 +14,7 @@ The study includes analysis of:
 
 ## Exploratory Study
 
-Transcript of the 17 sessions is available in an Org-Mode structured file: [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt).
-
-TODO:
-- add transcripts
-- add DFlow data (maybe as a CSV file)
-- add Pharo image with the analysis tool
+Transcripts of the 17 sessions are available in an [Org-Mode](http://orgmode.org) structured file: [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt). The interaction data, extracted from DFlow, are available at [windows.csv](./01-exploratory-study/windows.csv).
 
 ## On-line Survey
 
