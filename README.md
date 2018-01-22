@@ -1,4 +1,4 @@
-[//]: # (-*- coding: utf-8-unix ; mode: markdown ; font-lock-multiline: t ; eval: (auto-fill-mode -1) ; eval: (flyspell-mode 1) ; eval: (visual-line-mode 1) -*-)
+<!-- -*- coding: utf-8-unix ; mode: markdown ; font-lock-multiline: t ; eval: (auto-fill-mode -1) ; eval: (flyspell-mode 1) ; eval: (visual-line-mode 1) -*- -->
 
 # The Road to Live Programming: Insights From the Practice
 
