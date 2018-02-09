@@ -1,0 +1,396 @@
+\documentclass[table,a4paper]{article}
+
+\newcommand{\tabref}[1]{Table~\ref{tab:#1}}
+\newcommand{\figref}[1]{Figure~\ref{fig:#1}}
+\newcommand{\secref}[1]{Section~\ref{sec:#1}}
+
+\newcommand{\myparagraph}[1]{\vspace{0.3em}\noindent \textbf{\textit{#1.}}}
+\newcommand{\eg}{\emph{e.g.,}}
+
+% source code
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{listings}
+\definecolor{source}{gray}{0.96}
+\lstset{
+	language={},
+	% characters
+	tabsize=3,
+	upquote=true,
+	escapechar={!},
+	keepspaces=true,
+	breaklines=true,
+	alsoletter={\#:},
+	breakautoindent=true,
+	columns=fullflexible,
+	showstringspaces=false,
+	basicstyle=\footnotesize\sffamily,
+	% background
+	frame=single,
+    framerule=0pt,
+	backgroundcolor=\color{source},
+	% numbering
+	numbersep=5pt,
+	numberstyle=\tiny,
+	numberfirstline=true,
+	numbers=left,
+	% captioning
+	captionpos=b,
+	% formatting (html)
+	moredelim=[is][\textbf]{<b>}{</b>},
+	moredelim=[is][\textit]{<i>}{</i>},
+	moredelim=[is][\color{red}\uwave]{<u>}{</u>},
+	moredelim=[is][\color{red}\sout]{<del>}{</del>},
+	moredelim=[is][\color{blue}\underline]{<ins>}{</ins>}}
+%\newcommand{\ct}{\lstinline[backgroundcolor=\color{white},basicstyle=\footnotesize\ttfamily]}
+\newcommand{\lct}[1]{{\small\tt #1}}
+\newcommand{\ct}[1]{\texttt{#1}}
+
+% graphics: \fig{position}{percentage-width}{filename}{caption}
+% position see
+% http://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+%   h = put here, more or less, where it is in the source text
+%   t = top
+%   b = bottom  (...and others see the web page)
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png,.jpg,.pdf,.eps,.gif}
+\graphicspath{{figures/}}
+\newcommand{\fig}[4]{
+	\begin{figure}[#1]
+		\centering
+		\includegraphics[width=#2\textwidth]{#3}
+		\caption{\label{fig:#3}#4}
+	\end{figure}}
+
+\newcommand{\largefig}[4]{
+	\begin{figure*}[#1]
+		\centering
+		\includegraphics[width=#2\textwidth]{#3}
+		\caption{\label{fig:#3}#4}
+	\end{figure*}}
+
+%http://tex.stackexchange.com/questions/36524/how-to-put-a-framed-box-around-text-math-enviroment
+\usepackage[framemethod=TikZ]{mdframed}
+
+\mdfdefinestyle{MyFrame}{%
+    linecolor=gray,
+    outerlinewidth=1pt,
+    roundcorner=5pt,
+    innertopmargin=3pt,
+    innerbottommargin=3pt,
+    innerrightmargin=5pt,
+    innerleftmargin=0pt,
+    backgroundcolor=gray!5!white}
+
+\usepackage[colorlinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=black,
+	linkcolor=black,
+	citecolor=black,
+	plainpages=false,
+	bookmarksopen=true}
+\usepackage{tabularx}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{Assignments for The Road to Live Programming: Insights From the Practice}
+
+\author{Juraj Kubelka, Romain Robbes, Alexandre Bergel}
+
+\maketitle
+
+\section{Sessions and Assignments}
+\label{sec:sessions}
+
+The following \tabref{participants} describes session assignments on unfamiliar source code. Each assignment is described in detail in a corresponding session, referenced in the table.
+
+\begin{table}[h]
+  \caption{Unfamiliar Session Assignments.}
+  \label{tab:participants}
+  \centering
+  \begin{tabular}{ll}
+\hline
+Session Id & Assignment Reference \\
+\hline
+S1  &   \secref{a1}      \\
+S2  &  \secref{a2}     \\
+S3  &   \secref{a2}, \secref{a3}      \\
+S4  &    \secref{a4}    \\
+S5  &    \secref{a5}    \\
+S6  &     \secref{a6}    \\
+S7  &    \secref{a7}    \\
+S8  &     \secref{a8}    \\
+S9  &      \secref{a9}    \\
+S10 &      \secref{a10}, \secref{a11}  \\
+\hline
+  \end{tabular}
+\end{table}
+
+Two programming sessions had two assignments because the participants finished the first task before 40 minutes limit and therefore there was a time to work on another task. 
+
+All tasks were discussed at the before the session started to be sure that participants understand them.
+
+\clearpage{}
+
+\section{Assignment 1: Roassal Double Click}
+\label{sec:a1}
+
+\myparagraph{Introduction} Roassal supports single mouse click. It can be used as follows:
+
+\begin{lstlisting}
+view := RTView new.
+element := RTBox new color: Color random; size: 40; element.
+
+element when: TRMouseClick do: [ :event |
+	event element trachelShape color: Color random.
+	event signalUpdate. ].
+view add: element.
+view open.
+\end{lstlisting}
+
+When you execute the code snippet, the following window appears:
+
+\fig{h}{0.5}{roassal-double-click}{Roassal view with a single box element.}
+
+If you click on the box element, it will change the color.
+
+\myparagraph{Task} Implement a support for double click in Roassal with a similar use.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 2: Roassal Menu Background Color}
+\label{sec:a2}
+
+\myparagraph{Introduction} Currently, menu in Roassal may be defined using \ct{RTMenuBuilder}. For example:
+
+\begin{lstlisting}
+| v |
+v := RTView new.
+
+RTMenuBuilder new
+	view: v;
+	menu: 'add' submenu: 'circle' background: Color blue callback: [ v add: (RTEllipse new size: 40) element @ RTDraggable. v signalUpdate ];
+	menu: 'add' submenu: 'box' background: Color blue callback: [ v add: (RTBox new size: 40) element @ RTDraggable. v signalUpdate ];
+	build.	
+v open
+\end{lstlisting}
+
+When you click on 'add'. then you have a small  menu that appear. As for example:
+
+\fig{h}{1}{roassal-menu}{Roassal menu builder.}
+
+\myparagraph{Task} However, Circle and box do not have the color background. You basically have to add a box behind each of the appearing submenu.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 3: Implement edgesToAll: method in Roassal}
+\label{sec:a3}
+
+\myparagraph{Introduction} Roassal offers the \ct{RTMondrianViewBuilder} class to build graphs and trees. For example, you can do:
+
+\begin{lstlisting}
+| b |
+b := RTMondrianViewBuilder new.
+b nodes: Collection withAllSubclasses.
+b edgesFrom: #superclass.
+b treeLayout.
+b open
+\end{lstlisting}
+
+It display a window as the following figure: 
+
+\fig{h}{1}{roassal-graph}{Roassal graph example.}
+
+The \ct{edgesFrom:} method does the following: ``The message edgesFrom: defines one edge per node. For each node that has been added in the visualization, an edge is defined between this node and a node lookup from the provided block.''
+
+\myparagraph{Task} Now, we need additional way to build edges. For example, we need to have a method \ct{RTMondrianViewBuilder>>edgesToAll:} that can be used as:
+
+\begin{lstlisting}
+| b |
+b := RTMondrianViewBuilder new.
+b nodes: Collection withAllSubclasses.
+b edgesToAll: #dependentClasses.
+b forceBasedLayout.
+b open
+\end{lstlisting}
+
+Implement the \ct{edgesToAll:} method to satisfy the previous code snippet. You can similarly implement the \ct{edgesFromAll:} method.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 4: Roassal SVG Path Bugfix}
+\label{sec:a4}
+
+\myparagraph{Introduction} Roassal supports drawing SVG paths. Recently, the transformation matrix was introduced in the Roassal. This code change probably caused the functionality issues of the \ct{translatedBy:} method while using the SVG path element.
+
+\myparagraph{Task} Fix the issue of the \ct{translatedBy:} method on the SVG path element.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 5: Nautilus History of Navigation Widget as a Plug-in}
+\label{sec:a5}
+
+\myparagraph{Introduction} Nautilus System Browser is a main development tool in Pharo which can be extended by plug-ins. Existing plug-ins are accessible using Nautilus Plugins Manager; the manager is available from top-left context menu of Nautilus window, see \figref{nautilus-history-list-and-plugin-manager}. Here one can activate or inactivate existing plug-ins and define position.
+
+Nautilus includes a history of navigation widget which is visible in the middle part of the tool window. Developer can see last few navigated elements (classes or methods) and choose any in order to go back to a particular element.
+
+\fig{h}{1}{nautilus-history-list-and-plugin-manager}{Pharo IDE: Nautilus System Browser, history of navigation, and
+  Nautilus Plugin Manager accessible from top-left context menu.}
+
+\myparagraph{Task} Refactor History navigation list as plugin and make this plugin default. In the end the current behavior and look-and-feel should not change.
+
+You will likely need another browser for code editing. Particularly when Nautilus browser become broken because of your changes. You can use a basic one, which can be opened by calling \ct{Browser open}. Or you can even register the basic browser as default:
+
+\begin{lstlisting}
+  Smalltalk tools register: Smalltalk tools browser as: #nautilus.
+  Smalltalk tools register: Browser as: #browser.  
+
+  Smalltalk tools register: Smalltalk tools nautilus as: #browser.
+\end{lstlisting}
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 6: Nautilus Code Editor using Rubric framework}
+\label{sec:a6}
+
+\myparagraph{Introduction} Nautilus System Browser uses for code editing area a TextMorphForEditView, an old framework for code view and editing. Pharo already includes a new text editor framework, called Rubric. It permits rich text editing, highlighting, icons on the side, etc. Rubric is already used by Pharo 4 Inspector (GTInspector) or Workspace (GTPlayground).
+
+The advantage of new Rubric framework can be shown on the following example: the current solution explains any syntax error by inserting a message in to the source code, see \figref{nautilus-rubric}. On other hand, Rubric can highlights a particular code and display an error icon on the side.
+
+\fig{h}{1}{nautilus-rubric}{Pharo IDE with (1) Example of Rubric workspace, (2) Rubric editor supporting text highlighting and icons with assigned actions, (3) and Nautilus System Browser with current code editor. The examples are accessible in Rubric package as it is shown in Nautilus System Browser.}
+
+\myparagraph{Task} Change Nautilus implementation the way it uses Rubric framework for code editing. When you are done, improve syntax error handling the way, it displays the error message as an error icon on the side with a particular message. 
+
+You will likely need another browser for code editing. Particularly when Nautilus browser become broken because of your changes. You can use a basic one, which can be opened by calling \ct{Browser open}. Or you can even register the basic browser as default:
+
+\begin{lstlisting}
+  Smalltalk tools register: Smalltalk tools browser as: #nautilus.
+  Smalltalk tools register: Browser as: #browser.  
+
+  Smalltalk tools register: Smalltalk tools nautilus as: #browser.
+\end{lstlisting}
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 7: Apparent Fast Navigation}
+\label{sec:a7}
+
+\myparagraph{Introduction} Various tools, \eg{} Nautilus Browser, ImplementorsOf, and SendersOf, allow to click to a source code with CMD key or CMD+SHIFT (on Apple OS X) to show implementors, senders, definition, or users of a method or class. This behavior is not apparent. 
+
+\myparagraph{Task} Make this behavior apparent by adding a dynamic visual clue. Get inspired by Eclipse IDE as in \figref{eclipse-fast-navigation}. In that case the menu is displayed when mouse is hovering over a code and CMD key is hold. It highlights considered part of a source code and displays context menu with a particular options.
+
+\fig{h}{1}{eclipse-fast-navigation}{Eclipse IDE with fast navigation}
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 8: Responsive Glamour Framework}
+\label{sec:a8}
+
+\myparagraph{Introduction} Glamour is a framework for building UI tools widely used by Moose and Pharo community. Someone can simply define new visual presentation of a data. Building some visual presentation however takes time and the current Glamour framework does not come with a simple solution how to let a user know that something needs to be computed and it is necessary to wait. Users then are regularly confused and do not know whether the application is working or frozen.
+
+An example could be Moose Panel and Complexity Graph: when a moose model is large and someone clicks on the complexity tab, there is no visual clue that the click was received and the tool is building the graph.
+
+\fig{h}{1}{moose-panel}{Moose Panel and Complexity Graph.}
+
+
+\myparagraph{Task} Extend the Glamour framework the way, that developers can indicate to Glamour complex data representations. In that case Glamour should use some kind of progress bar or other visual indication to inform a user that it is building the representation. Ideally the building process should have possibility to cancel it.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+
+\section{Assignment 9: Nautilus Code Editor and Temporary Variables Management}
+\label{sec:a9}
+
+\myparagraph{Introduction} When developers write new method code and use undefined variable names, Pharo IDE asks for each variable if it should be defined as instance variable or as temporary variable and Pharo IDE makes particular changes to class or method definition. 
+
+When Pharo IDE identifies that some temporary variables are not used, it asks for each variable if it can be removed. In that case it does not change the source code well; it usually keeps one more space left and in case of removing \ct{variable2}:
+
+\begin{lstlisting} 
+methodName
+    | variable1 variable2 variable3 |
+\end{lstlisting}
+
+it ends up like this:
+
+\begin{lstlisting} 
+methodName
+    | variable1    variable3 |
+\end{lstlisting}
+
+In case it removes all the temporary variables, it ends up as following example:
+
+\begin{lstlisting} 
+methodName
+    |     |
+\end{lstlisting}
+
+
+\myparagraph{Task} Change the method modification the way, it keeps only one space between variable names and in case there are no other variables, it removes the whole line with the two pipelines \ct{ |  | }. 
+
+When you are done, ensure that the IDE does not ask removing each variable separately but in one dialog. 
+
+\fig{h}{0.6}{variables}{Pharo IDE asking for (1) declaring an unknown variable, and (2) removing unused temporary variable.}
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\clearpage{}
+\section{Assignment 10: Workspace Interprets CMD+. as Input}
+\label{sec:a10}
+
+\myparagraph{Introduction} Keyboard shortcut CMD+. (in Apple OS X system) is used for interruption of an active process. It raises an user interrupt exception and opens a debugger. When a Playground (Workspace) window is active and the keyboard shortcut is pressed, apart from the user interrupt, it interprets the shortcut as an input. Moreover, if a text is selected in the Workspace, it is replaced by the dot character.
+
+You can reproduce it as following:
+\begin{itemize}
+\item Open Workspace from the World menu,
+\item press CMD+. (a debugger should open, you can click proceed),
+\item check the Workspace where a dot character should appear. 
+\end{itemize}
+
+\myparagraph{Task} Fix the issue: CMD+. should serve as a keyboard shortcut for user interruption, but it should not be interpreted as an input by any input field.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+
+\clearpage{}
+\section{Assignment 11: TAB key is broken in GTPlayground}
+\label{sec:a11}
+
+\myparagraph{Introduction} When a user writes a code in the Workspace, the TAB keystroke is ignored. This keystroke should move cursor forward and indent the text on a current line. 
+
+You can reproduce it as following:
+\begin{itemize}
+\item Open Workspace from the World menu,
+\item press TAB key,
+\item nothing should happened.
+\end{itemize}
+
+\myparagraph{Task} Fix the issue: TAB key should move cursor forward together with a text ahead.
+
+\myparagraph{Info} It is not supposed to finish the task within the session.
+
+\end{document}
+
+%% Local variables:
+%% eval: (auto-fill-mode -1)
+%% eval: (flyspell-mode 1)
+%% eval: (visual-line-mode 1)
+%% coding: latin-1-unix
+%% End:

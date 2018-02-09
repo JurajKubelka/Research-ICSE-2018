@@ -16,6 +16,8 @@ The study includes analysis of:
 
 Transcripts of the 17 sessions are available in an [Org-Mode](http://orgmode.org) structured file: [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt). The interaction data, extracted from DFlow, are available at [windows.csv](./01-exploratory-study/windows.csv).
 
+Assignments for session on unfamiliar source code are available at [assignments.pdf](./01-exploratory-study/assignments.pdf).
+
 If you want an access to the session videos, please, contact the first author at _juraj.kubelka (at) icloud.com_.
 
 ## On-line Survey
