@@ -752,7 +752,7 @@ S5,HistoryNavigation>>#display,system-browser,0:00:16:46
 S5,Provide the following information,dialog,0:00:27:47
 S5,NautilusUI>>#currentHistoryIndex,system-browser,0:00:14:44
 S5,Nautilus,system-browser,0:00:08:43
-S5,Debug it,unknown,0:00:06:26
+S5,Debug it,debugger,0:00:06:26
 S5,Playground,playground,0:00:06:19
 S5,NautilusUI>>#buildNavigationList,system-browser,0:00:39:25
 S5,Nautilus,system-browser,0:00:01:04
