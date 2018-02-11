@@ -9,8 +9,8 @@
 * Sessions June 2014
 ** Session S2 with P2, unfamiliar (Roassal2 Menu background color)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S2-P2/session.mov
-   :FUEL: PartA-June2014/S2-P2/DFlow-FUEL-3581791366.fuel
+   :VideoFile: videos/S2-P2.m4v
+   :FUEL: dflow/S2-P2.fuel
    :VIDEO-START-TIME: 2014-07-02T16:59:55.623033-04:00
    :Familiar: 0
    :SESSION-ID: S2
@@ -170,8 +170,8 @@
 12. 47:16-59:40 The Session finished, the rest is interview.
 ** Session S11 with P4, familiar (Roassal 3D API same as in Roassal2)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S4-P4/CoolProgrammingSession.mov
-   :FUEL: PartA-June2014/S4-P4/DFlow-FUEL-Roassal3dShouldAllowOneTo-3581006914.fuel
+   :VideoFile: videos/S11-P4.m4v
+   :FUEL: dflow/S11-P4.fuel
    :VIDEO-START-TIME: 2014-06-23T15:03:00.097426-04:00
    :Familiar: 1
    :SESSION-ID: S11
@@ -349,8 +349,8 @@
 29. 43:32 The session finished.
 ** Session S13 with P6, familiar (Replace Growl for Live Robot Programming UI)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S6-P6/s6p6screencast.mov
-   :FUEL: PartA-June2014/S6-P6/DFlow-FUEL-3581596893.fuel
+   :VideoFile: videos/S13-P6.m4v
+   :FUEL: dflow/S13-P6.fuel
    :VIDEO-START-TIME: 2014-06-30T11:04:20.594631-04:00 
    :Familiar: 1
    :SESSION-ID: S13
@@ -501,8 +501,8 @@
 9. 49:28 Session finished. Then follows interview.
 ** Session S1 with P1, unfamiliar (Implements double click in Roassal2)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S1-P1/s1p1screencast.mov
-   :FUEL: PartA-June2014/S1-P1/DFlow-FUEL-3581355161.fuel
+   :VideoFile: videos/S1-P1.m4v
+   :FUEL: dflow/S1-P1.fuel
    :VIDEO-START-TIME: 2014-06-27T15:56:19.227227-04:00
    :Familiar: 0
    :SESSION-ID: S1
@@ -643,8 +643,8 @@
 10. 44:50 The session finished.
 ** Session S3 with P3, unfamiliar (Roassal2 Menu background color, add edgesToAll: messages)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S3-P3/session2.mp4
-   :FUEL: PartA-June2014/S3-P3/DFlow-FUEL-3582474820.fuel
+   :VideoFile: videos/S3-P3.m4v
+   :FUEL: dflow/S3-P3.fuel
    :VIDEO-START-TIME: 2014-07-10T14:56:33.66767-04:00
    :Familiar: 0.5
    :SESSION-ID: S3
@@ -836,8 +836,8 @@
 44. 48:25 The session terminates.
 ** Session S12 with P5, familiar (Panel Analizador SOA application)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S5-P5/BpelComplexityAnalyzer-BPVariable.mp4
-   :FUEL: PartA-June2014/S5-P5/DFlow-FUEL-EditTheInformationOfThe-3581613056.fuel
+   :VideoFile: videos/S12-P5.m4v
+   :FUEL: dflow/S12-P5.fuel
    :VIDEO-START-TIME: 2014-06-30T15:44:0.306393-04:00
    :Familiar: 1
    :SESSION-ID: S12
@@ -977,8 +977,8 @@
 16. 43:30-45:25 the session finished. He explains what he should do next. He finishes the session by himself. I had not to say anything.
 ** Session S4 with P7, unfamiliar (Fix SVGPath movement)
    :PROPERTIES:
-   :VideoFile: PartA-June2014/S7-P7/FixingSVGPath.mov
-   :FUEL: PartA-June2014/S7-P7/DFlow-FUEL-FixingSVGPathBugItDoes-3581081368.fuel
+   :VideoFile: videos/S4-P7.m4v
+   :FUEL: dflow/S4-P7.fuel
    :VIDEO-START-TIME: 2014-06-24T10:38:45.772105-04:00
    :Familiar: 0.5
    :SESSION-ID: S4
@@ -1186,7 +1186,7 @@
 * Sessions November 2014
 ** Session S14 with P8, familiar code (S2py Test Framework)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T1-P8/screen-recording.mov
+   :VideoFile: videos/S14-P8.m4v
    :Familiar: 1
    :SESSION-ID: S14
    :PARTICIPANT-ID: P8
@@ -1338,8 +1338,8 @@
 58. 50:52-50:56 session finished
 ** Session S5 with P8, unfamiliar code (Nautilus History as Plugin)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T2-P8/screen-recording.mov
-   :FUEL: PartB-November2014/T2-P8/DFlow-FUEL-NautilusHistoryAs-3617964542.fuel
+   :VideoFile: videos/S5-P8.m4v
+   :FUEL: dflow/S5-P8.fuel
    :VIDEO-START-TIME: 2014-11-07T15:15:09.04654-03:00
    :Familiar: 0
    :SESSION-ID: S5
@@ -1544,8 +1544,8 @@
 13. 42:40 session finished
 ** Session S6 with P9, unfamiliar (Rubric in Nautilus)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T3-P9/screencast.mov
-   :FUEL: PartB-November2014/T3-P9/DFlow-FUEL-Assignment10-3617965108.fuel
+   :VideoFile: videos/S6-P9.m4v
+   :FUEL: dflow/S6-P9.fuel
    :VIDEO-START-TIME: 2014-11-18T11:20:14.310965-03:00
    :Familiar: 0
    :SESSION-ID: S6
@@ -1751,8 +1751,8 @@
 23. 41:55 session finished
 ** Session S15 with P9, familiar (LiveRobots, well sorted variables)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T4-P9/screencast.mov
-   :FUEL: PartB-November2014/T4-P9/DFlow-FUEL-Experimento-3617965242.fuel
+   :VideoFile: videos/S15-P9.m4v
+   :FUEL: dflow/S15-P9.fuel
    :VIDEO-START-TIME: 2014-12-01T11:45:14-03:00 
    :Familiar: 1
    :SESSION-ID: S15
@@ -1942,8 +1942,8 @@
 13. 46:43-46:58 he saves the image and finishes the session.
 ** Session S16 with P10, familiar code (Roassal2 builder)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T5-P10/screencast-2014-11-18_17.02.56.mp4
-   :FUEL: PartB-November2014/T5-P10/DFlow-FUEL-3617965466.fuel
+   :VideoFile: videos/S16-P10.m4v
+   :FUEL: dflow/S16-P10.fuel
    :VIDEO-START-TIME: 2014-11-18T17:03:03.221448-03:00
    :Familiar: 1
    :SESSION-ID: S16
@@ -2048,8 +2048,8 @@
 12. 45:34-46:55 session finished.
 ** Session S17 with P11, familiar code (Big collections in GT-Inspector)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T6-P11/screen-recording.mov
-   :FUEL: PartB-November2014/T6-P11/DFlow-FUEL-PerformanceBug-3617965614.fuel
+   :VideoFile: videos/S17-P11.m4v
+   :FUEL: dflow/S17-P11.fuel
    :VIDEO-START-TIME: 2014-11-04T14:38:02.94833-03:00
    :Familiar: 1
    :SESSION-ID: S17
@@ -2192,8 +2192,8 @@
 8. 54:44-54:53 session finished
 ** Session S7 with P11, unfamiliar code (Nautilus hover highlighting)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T7-P11/screen-recording.mov
-   :FUEL: PartB-November2014/T7-P11/DFlow-FUEL-NewFeature-3617965837.fuel
+   :VideoFile: videos/S7-P11.m4v
+   :FUEL: dflow/S7-P11.fuel
    :VIDEO-START-TIME: 2014-11-05T11:46:03.801956-03:00
    :Familiar: 0
    :SESSION-ID: S7
@@ -2346,8 +2346,8 @@
 11. 38:22-38:52 session finished. 
 ** Session S8 with P4, unfamiliar (Glamour responsive API)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T8-P4/screencast.mov
-   :FUEL: PartB-November2014/T8-P4/DFlow-FUEL-ProgrammingSessionWithGlamour-3617964866.fuel
+   :VideoFile: videos/S8-P4.m4v
+   :FUEL: dflow/S8-P4.fuel
    :VIDEO-START-TIME: 2014-12-04T11:19:28-03:00
    :Familiar: 0
    :SESSION-ID: S8
@@ -2570,8 +2570,8 @@
 10. 64:41-88:05 session stops. and discussion
 ** Session S9 with P5, unfamiliar (Temporary Variables Management)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T9-P5/screencast-Assignment11.mp4
-   :FUEL: PartB-November2014/T9-P5/DFlow-FUEL-3617965992.fuel
+   :VideoFile: videos/S9-P5.m4v
+   :FUEL: dflow/S9-P5.fuel
    :VIDEO-START-TIME: 2014-11-17T19:08:37.352996-04:00
    :Familiar: 0
    :SESSION-ID: S9
@@ -2725,10 +2725,10 @@
 4. 54:58-55:08 c"observer" C"Observer asks him to stop the session." session finished.
 ** Session S10 with P6, unfamiliar (Workspace and CMD+. and Tab keys)
    :PROPERTIES:
-   :VideoFile: PartB-November2014/T10-P6/screencast.mov
+   :VideoFile: videos/S10-P6.m4v
    :NumberOfFuelFiles: 2
-   :FUEL: PartB-November2014/T10-P6/A15-TabKey/DFlow-FUEL-WorkspaceAndTAB-3617969918.fuel
-   :FUEL-2: PartB-November2014/T10-P6/A16-CmdDotAsInput/DFlow-FUEL-TabKeysIn-3617969657.fuel
+   :FUEL: dflow/S10-P6.fuel
+   :FUEL-2: dflow/S10-P6b.fuel
    :VIDEO-START-TIME: 2014-12-01T10:25:05.946151-03:00
    :VIDEO-START-TIME-2: 2014-12-01T10:25:06.211376-03:00
    :Familiar: 0.5
