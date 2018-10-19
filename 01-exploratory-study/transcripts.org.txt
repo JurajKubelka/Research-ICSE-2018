@@ -79,7 +79,8 @@
       1. 05:12-05:14 S"It is in RTMenuBuilder [the createParentMenu:background:]" GQ"(11) Who implements this interface or these abstract methods?"
       2. 05:14-05:28 Because of a Pharo 3 error, he loosed the implementation -> new browser again
       3. 05:28-06:00 <<s10link2>> Found ~createBackgroundFor:color:~ method which was just above the previous method (Nautilus (4/4)) GQ"(6) What are the parts of this type?" S"This is probably something I should not try to do, because it is pretty low level ..." c"miss-opportunity" C"I think this is exactly what he should do. And he does it at [[s10link11][21:11]]."
-      4. 06:00-06:16 Q17 He observes ~createParentMenu:~  GQ"(6) What are the parts of this type?"
+      4. 06:00-06:09 Q17 He observes ~createParentMenu:~
+      5. 06:09-06:16 GQ"(6) What are the parts of this type?"
    3. 06:16-06:20 Q"What does ~RTMenu~ class represent?" Q6 he clicks on ~RTMenu~ class but does not observe it much.
    4. 06:20-07:12 <<s10link3>> He clicks on ~RTMenuBuilder~, then ~createParentMenu:~ method. In Nautilus 4 jumped to RTMenu class then back to ~RTMenuBuilder>>createParentMenu:~ GQ"(17) What does the declaration or definition of this look like?". S"[No, ] it is a label" He also observes ~createParentMenu:background:~, but more ~createParentMenu:~. c"miss-opportunity" C"Here he can see how to use color."
    5. 07:12-09:47 Q"What is the relation between ~RTMenu*~ classes?" Q22 he observes ~RTMenuItem~ class and its methods. C"Hard to know if it is answered question."
@@ -247,7 +248,7 @@
     6. 07:45-07:47 Q"What is the definition of height: method?" Q17 B CP
     7. 07:55-07:57 Q"What is the name of input variable in height:?" Qe2 B CP
     8. 08:10-09:07 <<s1link3>> c"observer" The observer did not resist to point out an error in the code which could be revealed later when someone decide to use Roassal3D without Roassal. It is about ~r3Value:~ message call in ~depth:~ method.
-       1. 08:34-08:44 Q"What is the last method I have edited before?" Qe9 B
+       1. 08:34-08:44 Q"What is the last method I have edited before?" Qxe9 B
        2. 09:05-09:07 Q"How does the methods depth: looks like?" Q17 B CP
     9. 09:07-10:27 he implements the same methods for ~height~.
        1. 09:27-09:35 Q"What is the input variable name of the recently edited method like heightElement:?" Qe2 B CP
@@ -618,11 +619,13 @@
    1. 31:21-32:50  <<s7link21>> Q"How it is implemented in Java?" GQ"(4) Is there a precedent or exemplar for this?" browsing in Web. S"I have an idea how to do it, but I want to check my idea with an existing implementation."
       1. 31:45-32:22 He found that java event has getClickCount method. Q"Does the Morph or MouseClick has something like getClickCount?" GQ"(5) Is there an entity named something like this in that unit (project, package, or class, say)?"  looking for instance variables. S"It does not have such information". B c"browser"
    2. 33:45 he closed all the old windows.
-   3. 34:00-34:33 <<s7link22>> Q"What is the type of this event [evt]?" asking in ~rtMouseClick:~ by writing ~self halt~. C"This is the first time he uses =self halt=."  GQ"(18) What are the arguments to this function?" W c"workspace" -> executing the example -> c"debugger" DBG seeing the evt S"Is MouseButtonEvent". D"He puts breakpoint in order to know if a particular code is executed. Then he also observes variable values." He were also observing the instance GQ"(27) How does this data structure look at runtime?" in order to compare it with the following: 
-   4. 34:45-34:52 Q"What happens with double click?" he closed the previous c"debugger" DBG and made double click. GQ"(34) How does the system behavior vary over these types or cases?" He received two DBGs. D"He uses breakpoint in order to know if the code is called on double click. He also observes if variable has same values."
-   5. 34:53-35:20 Q"Is the event variable [evt] of the same type as the one before?" in c"debugger" DBG. GQ"(18) What are the arguments to this function?" S"Yes. it is the same type." Then he close the DBGs. D"He observes if the variable value is the same as in single-click use case before."
-   6. 35:20-36:22 He was summarizing how to implement it.
-   7. 36:22-41:34 <<s7link23>> Back in the Web trying to find how it is implemented in Java because he thinks it is not implemented in Morph. He found DoubleClickDetector. Meanwhile he is thinking and comparing about three ideas how to implement double click. c"false-assumption"
+   3. 34:00-34:10 <<s7link22>> Q"What is the type of this event [evt]?" asking in ~rtMouseClick:~ by writing ~self halt~. C"This is the first time he uses =self halt=."
+   4. 34:10-34:20 GQ"(18) What are the arguments to this function?" W c"workspace" -> executing the example -> c"debugger" DBG seeing the evt S"Is MouseButtonEvent". D"He puts breakpoint in order to know if a particular code is executed. Then he also observes variable values."
+   5. 34:20-34:33 He were also observing the instance GQ"(27) How does this data structure look at runtime?" in order to compare it with the following: 
+   6. 34:45-34:52 Q"What happens with double click?" he closed the previous c"debugger" DBG and made double click. GQ"(34) How does the system behavior vary over these types or cases?" He received two DBGs. D"He uses breakpoint in order to know if the code is called on double click. He also observes if variable has same values."
+   7. 34:53-35:20 Q"Is the event variable [evt] of the same type as the one before?" in c"debugger" DBG. GQ"(18) What are the arguments to this function?" S"Yes. it is the same type." Then he close the DBGs. D"He observes if the variable value is the same as in single-click use case before."
+   8. 35:20-36:22 He was summarizing how to implement it.
+   9. 36:22-41:34 <<s7link23>> Back in the Web trying to find how it is implemented in Java because he thinks it is not implemented in Morph. He found DoubleClickDetector. Meanwhile he is thinking and comparing about three ideas how to implement double click. c"false-assumption"
       1. 37:40-38:00 One of the ideas was about utilizing TimeStamp. So he observes how it looks like Q"How does the definition of TimeStamp look like?" GQ"(6) What are the parts of this type?" B c"browser"
       2. 38:00-39:25 He is playing with DateTime in order to understand how to get a timestamp in order to know how precise it is Q"How precise is the timestamp?  (milliseconds?  nanoseconds?)" GQ"(23) How is this feature or concern (object ownership, UI control, etc.)  implemented?" 
          1. 38:15-39:25 He is observing Date class Q"How it calculates the actual time?" GQ"(6) What are the parts of this type?".
@@ -631,15 +634,18 @@
       3. 39:25-41:34 Asking on the Web for "java MouseEvent source code" in order to know Q"How or when it resets the click counter?" GQ"(23) How is this feature or concern (object ownership, UI control, etc.) implemented?". He have found it does not say how to compute click count or reset click count. It just knows the number.
          1. 41:10-41:34 Another question "MouseEvent java how measure the click count" GQ"(23) How is this feature or concern (object ownership, UI control, etc.) implemented?"
          2. Unsatisfied answers.
-   8. 41:34-43:38 Back in Pharo in TRMorph>>rtMouseClick: as he wants to implement click counter as an instance variable to TRMouseClick, he is asking Q"Who creates the event [evt in rtMouseClick: evt]? Or When it is created?" GQ"(21) How are instances of these types created and assembled?"
-      1. 41:52-42:20 <<s7link24>> To answer it he is asking Q"Who call rtMouseClick:?" GQ"(12) Where is this method called or type referenced?" B c"browser", only one method called RTMorph>>mouseClick:. Then observing its implementation Q"How does the definition looks like?" GQ"(6) What are the parts of this type?"
-      2. 42:20-42:52 Q"Who call mouseDown:?" GQ"(12) Where is this method called or type referenced?" B c"browser" SN(37) Observing the methods in SN. Then he found method Morph>>click and decided to browse it GQ"(6) What are the parts of this type?" in B c"browser". Q"How does the Morph class looks like?  Does it do something related to mouse event creation?" GQ"(3) Where is there any code involved in the implementation of this behavior?"
-      3. 42:52-43:22 <<s7link25>> He founds ~doubleClick:~ in the same list of class methods. Q"How does the method doubleClick: looks like?" GQ"(6) What are the parts of this type?"
-      4. 43:22-43:38 Q"Who implements the doubleClick:fromMorph:?"  GQ"(17) What does the declaration or definition of this look like?" B c"browser" IM(3) which he found in the method doubleClick:
-      5. I think he forgot about this question as he found another scent (doubleClick: method).
-   9. 43:38-43:58 He think that TRMorph should rewrite doubleClick:  Q"Does the TRMorph implements doubleClick: method?" GQ"(11) Who implements this interface or these abstract methods?" B c"browser" c"positive-progress"
-   10. 43:58-44:18 Then he found handleMouseMove: and other handle* methods on TRMorph and he is interested if on Morph is something like handleMouseDoubleClick: Q"Does Morph class have method called something like handleMouseDoubleClick:?"  GQ"(5) Is there an entity named something like this in that unit (project, package, or class, say)?" B c"browser" S"No."
-   11. 44:18-44:50 As he has not found the expected method he is interested of Q"What does handlesMouseDown: do?" GQ"(6) What are the parts of this type?" B c"browser"
+   10. 41:34-43:38 Back in Pharo in TRMorph>>rtMouseClick: as he wants to implement click counter as an instance variable to TRMouseClick, he is asking Q"Who creates the event [evt in rtMouseClick: evt]? Or When it is created?" GQ"(21) How are instances of these types created and assembled?"
+       1. 41:52-42:05 <<s7link24>> To answer it he is asking Q"Who call rtMouseClick:?" GQ"(12) Where is this method called or type referenced?" B c"browser", only one method called ==RTMorph>>mouseClick:==.
+       2. 42:05-42:20 Then observing its implementation Q"How does the definition looks like?" GQ"(6) What are the parts of this type?"
+       3. 42:20-42:30 Q"Who call mouseDown:?" GQ"(12) Where is this method called or type referenced?" B c"browser" SN(37) Observing the methods in SN.
+       4. 42:30-42:40 Then he found method ==Morph>>click== and decided to browse it GQ"(6) What are the parts of this type?" in B c"browser". Q"How does the Morph class looks like?  Does it do something related to mouse event creation?"
+       5. 42:40-42:52 GQ"(3) Where is there any code involved in the implementation of this behavior?"
+       6. 42:52-43:22 <<s7link25>> He founds ~doubleClick:~ in the same list of class methods. Q"How does the method doubleClick: looks like?" GQ"(6) What are the parts of this type?"
+       7. 43:22-43:38 Q"Who implements the doubleClick:fromMorph:?"  GQ"(17) What does the declaration or definition of this look like?" B c"browser" IM(3) which he found in the method doubleClick:
+       8. I think he forgot about this question as he found another scent (doubleClick: method).
+   11. 43:38-43:58 He think that TRMorph should rewrite doubleClick:  Q"Does the TRMorph implements doubleClick: method?" GQ"(11) Who implements this interface or these abstract methods?" B c"browser" c"positive-progress"
+   12. 43:58-44:18 Then he found handleMouseMove: and other handle* methods on TRMorph and he is interested if on Morph is something like handleMouseDoubleClick: Q"Does Morph class have method called something like handleMouseDoubleClick:?"  GQ"(5) Is there an entity named something like this in that unit (project, package, or class, say)?" B c"browser" S"No."
+   13. 44:18-44:50 As he has not found the expected method he is interested of Q"What does handlesMouseDown: do?" GQ"(6) What are the parts of this type?" B c"browser"
 10. 44:50 The session finished.
 ** Session S3 with P3, unfamiliar (Roassal2 Menu background color, add edgesToAll: messages)
    :PROPERTIES:
@@ -706,8 +712,9 @@
 8. 06:35-08:08 he asks Q"How is the background created for the parent menu?" GQ"(23) How is this feature or concern (object ownership, UI control, etc.) implemented?"
    1. 06:39-06:44 goes to method ~createParentMenu:background:~ observing the implementation where he see another method Q"How does the method look like?"  GQ"(17) What does the declaration or definition of this look like?" which creates background
    2. 06:44-07:05 then he asks Q"Why it does not do the same things [parent menu label and background color] at the same time? (d3) Why was this code implemented this way?" Q25
-      1. 06:55-07:05 goes to method ~createParentMenu:~ GQ"(17) What does the declaration or definition of this look like?"  stating S"I think it should be simply a label [TRLabelShape]" GQ"(20) What data is being modified in this code?"
-      2. 07:05-08:08 <<s11link3>> then he goes to method ~createBackgroundFor:color:~ GQ"(17) What does the declaration or definition of this look like?" observing the implementation. C"Since now he knows how to create a background."
+      1. 06:55-07:00 goes to method ~createParentMenu:~ GQ"(17) What does the declaration or definition of this look like?"
+      2. 07:00-07:05 stating S"I think it should be simply a label [TRLabelShape]" GQ"(20) What data is being modified in this code?"
+      3. 07:05-08:08 <<s11link3>> then he goes to method ~createBackgroundFor:color:~ GQ"(17) What does the declaration or definition of this look like?" observing the implementation. C"Since now he knows how to create a background."
          1. 07:15-07:32 he is surprised that the color has hardcoded alpha canal asking Q"Is it because of some style? (US1) Why is this feature implemented that way?" Q25 S"I do not know."
          2. 07:32-08:08 Then c"observer" asks him what does he do not know. If I remember, I have not understood what he said. And he is explaining that when the menu is created it uses two shapes. He remembers that in Roassal 1 it was possible do this with one shape. He believes that in Roassal 2 one element can have only one shape. C"Apparently people are confused between TR (Roassal2) or TR (Trachel) package. Or maybe it is confusing because it is not common to manipulate with Trachel shapes in Roassal 2 package."
 9. 08:08-12:55 <<s11link4>> Back in ~showSubmenuOf:~ thinking how to implement the background here. Then he starting to write and thinking GQ"(1) Which type represents this domain concept or this UI element or action?" C"he starts to modify the code."
@@ -724,9 +731,10 @@
 12. 13:45-14:08 Moves in Browser to see method ~createBackgroundFor:color:~ and observing the implementation Q"How is the method implemented?" GQ"(17) What does the declaration or definition of this look like?" Then altering the implementation by adding return statement.
 13. 14:08-14:53 <<s11link8>> back in W c"workspace" c"confidence" running the example Q"Does my implementation works? Does it solve the task?" GQ"(44) Will this completely solve the problem or provide the enhancement?" The background works but it does not disappear when the menu is closed. Stating S"Here is an error. The background should also disappear."  Closing the W
 14. 14:53-15:08 then goes in B to method ~showSubmenuOf:~ asking Q"Where is the feature which hides the menu items?" GQ"(3) Where is there any code involved in the implementation of this behavior?" S"Here it is, the method ~hideItems~."
-15. 15:08-16:04 Asking Q"How does the method ~hideItems~ look like?"  GQ"(23) How is this feature or concern (object ownership, UI control, etc.) implemented?" by pressing KM goes directly to B with the method stating S"Here is the method in RTMenu". C"As the variables' types are not apparent instead of going directly to the desired implementation the programmer asked who implements this method by asking for all implementors of the method ~hideItems~." Q"Who implements this method?"  GQ"(11) Who implements this interface or these abstract methods?"
-    1. 15:56 Stating S"Here the label is removed. So I should remove the background here too.", then closing B with the method
-    2. 16:04 S"I should keep open the browser with ~hideItems~" he opens it again
+15. 15:08-16:04 Asking Q"How does the method ~hideItems~ look like?"  GQ"(23) How is this feature or concern (object ownership, UI control, etc.) implemented?" by pressing KM goes directly to B with the method stating S"Here is the method in RTMenu". C"As the variables' types are not apparent instead of going directly to the desired implementation the programmer asked who implements this method by asking for all implementors of the method ~hideItems~."
+    1. 15:08-16:04 Q"Who implements this method?"  GQ"(11) Who implements this interface or these abstract methods?"
+    2. 15:56 Stating S"Here the label is removed. So I should remove the background here too.", then closing B with the method
+    3. 16:04 S"I should keep open the browser with ~hideItems~" he opens it again
 16. 16:04-18:27 Back in B with ~showSubmenuOf:~ saying S"I have to keep the reference for this background." Q"How should I alter the code here?" GQ"(38) Where should this branch be inserted or how should this case be handled?"
     1. 16:18-17:18 S"Here is something strange. I have here a reference to menu" looking at the code ~item menu: m~ comparing with method ~hideItems~, asking Q"Does RTMenuItem have a reference to RTMenu?" GQ"(22) How are these types or objects related? (whole-part)" browsing the class, stating S"Here is menu" visiting ~menu~ method and then S"And here is method ~rawmenu~."
        1. 16:43-17:18 Then back in ~hideItems~ asks Q"What happens if I change the code like this? I use only rawmenu." GQ"(42) What will be (or has been) the direct impact of this change?" writing ~item rawmenu remove~.
@@ -900,8 +908,9 @@
    1. 03:26-03:40 opening B to see class ~BPVariable~ which likely represents ~inputVariables~ presented before. Observing its definition of instance variables. GQ"(6) What are the parts of this type?"
    2. 03:40-03:48 Pointing to ~xslType~ in B which represents the schema
    3. 03:48-04:04 <<s8link1>> c"playground" then going to OJD and then copying the value of ~messageType~ to W in order to see it and having it as a reference. Q"What is the value of the ~messageType~ instance variable at runtime?" GQ"(27) How does this data structure look at runtime?"
-   4. 04:35-05:50 going to PASOA and inspecting ~inputVariable~ which is instance of ~BPVariable~ going to see the value of ~xslType~. The value is a ~BPXSDElement~ instance, then observing its structure Q"How does the values of this object look like at runtime?" GQ"(27) How does this data structure look at runtime?", going deep to ~myDocument~, as he see that it is wrong objects, goes to see another instance variable ~parent~, here looking at ~fullPath~. Its value is a filename. Q"What is the filename of XSD schema related to this variable called ~inputVariable~ at runtime?" GQ"(27) How does this data structure look at runtime?"
-   5. c"observation: Most of the time he spent by explaining it to me, he could do it faster without this recording, I think. But I am not sure about it."
+   4. 04:35-05:00 going to PASOA and inspecting ~inputVariable~ which is instance of ~BPVariable~ going to see the value of ~xslType~. The value is a ~BPXSDElement~ instance, then observing its structure Q"How does the values of this object look like at runtime?" GQ"(27) How does this data structure look at runtime?", going deep to ~myDocument~, as he see that it is wrong objects, goes to see another instance variable ~parent~, here looking at ~fullPath~.
+   5. 05:00-05:50 Its value is a filename. Q"What is the filename of XSD schema related to this variable called ~inputVariable~ at runtime?" GQ"(27) How does this data structure look at runtime?"
+   6. c"observation: Most of the time he spent by explaining it to me, he could do it faster without this recording, I think. But I am not sure about it."
 3. 05:50-06:05 opening the XSD file in Notepad++
 4. 06:10-06:40 back in Pharo, in the inspector with ~inputVariable~ looking for a element name Q"What is the name of this element?  What is the value of name variable at runtime?". GQ"(27) How does this data structure look at runtime?" It is called "process" and observing ~lstElements~
    1. 06:30-06:40 Q"What is the value of ~lstElements~ variable at runtime?" GQ"(e5) What is the type of this variable at runtime?" in order to see its value which is a ~BPXSDComplexType~.
@@ -924,7 +933,8 @@
     2. 14:35 and implements here new method ~allElements~
 13. 16:12-25:56 Now ~allElements~ method return empty collection and I am going to check it as it is. GQ"(42) What will be (or has been) the direct impact of this change?"
     1. 16:28-16:53 goes to ~BPVariableTest>>testBuildRelations~ in B, changing the definition
-    2. 16:53-20:05 testing from B the test case Q"Does my solution works?" GQ"(44) Will this completely solve the problem or provide the enhancement?" which produces an error -> c"debugger" DBG Q"Why it fails?" GQ"(e8) What does the failure look like?"
+    2. 16:53-16:57 testing from B the test case Q"Does my solution works?" GQ"(44) Will this completely solve the problem or provide the enhancement?"
+    3. 16:57-20:05 which produces an error -> c"debugger" DBG Q"Why it fails?" GQ"(e8) What does the failure look like?"
        1. 17:15-17:40 observing in c"debugger" DBG's inspector the variables in order to find out the error. He thinks he has not written well the element's name ~inputVariable~. Q"Is the element's name I have written correct?" GQ"(36) What is the difference between these similar parts of the code (e.g., between sets of methods)?" But finding it is correct.
        2. 17:40-17:45 executing the test again Qe7
        3. 17:45-18:10 GQ"(e8) What does the failure look like?"
@@ -935,19 +945,21 @@
           1. 18:50-19:03 <<s8link3>> c"playground" then goes to W with his notes he has to do for this task and adds more information
           2. 19:03-19:52 <<s8link4>> understanding what to do using POSOA visualization and B with ~BPVCBProcessNormalLayout~
           3. 19:52-20:05 back in c"debugger" DBG asking Q"Why ~inputVariable~ does not have any relation?" GQ"(27) How does this data structure look at runtime?" and deciding to change XML definition
-    3. 20:05-20:44 goes to OJD in order to change XML definition. It should simplify his testing for now. Q"How can I simplify my test case for now?" GQ"(22) How are these types or objects related? (whole-part)"
-    4. 20:44-22:16 closing and opening POSOA and closing c"debugger" DBG to see the changes he made into XML.
+    4. 20:05-20:44 goes to OJD in order to change XML definition. It should simplify his testing for now. Q"How can I simplify my test case for now?" GQ"(22) How are these types or objects related? (whole-part)"
+    5. 20:44-22:16 closing and opening POSOA and closing c"debugger" DBG to see the changes he made into XML.
        1. 21:10-21:22 inspecting ~inputVariable~ in order to see its relations ~lstRelations~ GQ"(27) How does this data structure look at runtime?" which is empty. S"It seams that the relation does not work well."
        2. 21:22-21:37 <<s8link5>> and in W with notes writing that he needs to test it
        3. 22:16 S"that this issue is not my objective now, but it limits me in my task."
        4. c"observation: I suppose he forgot about the simplification as it likely does not serve to him because of relation error."
-    5. 22:16-22:40 checking if he really needs it or can live without it for now while looking at ~executeVisualization~ in B GQ"(34) How does the system behavior vary over these types or cases?".
-    6. 22:40-23:41 goes to B with test case ~testbuildRelations~, then comparing two similar tests in order to know which can serve him better Q"Which test case serves me better?" GQ"(35) What are the differences between these files or types?"
+    6. 22:16-22:40 checking if he really needs it or can live without it for now while looking at ~executeVisualization~ in B GQ"(34) How does the system behavior vary over these types or cases?".
+    7. 22:40-23:41 goes to B with test case ~testbuildRelations~, then comparing two similar tests in order to know which can serve him better Q"Which test case serves me better?" GQ"(35) What are the differences between these files or types?"
        1. 23:23-23:41 while he is reading the second test case, he found out that one line of code can be simplified a bit. So he rewrite it and test it.
        2. c"observation: at that moment he likely decided to use the second test case."
-    7. 23:41-23:59 the test does not work Q"Does the test work as I expect?" GQ"(42) What will be (or has been) the direct impact of this change?", but as he sees in c"debugger" DBG it fails later after the change and says S"We are very good. Estamos súper bien."
-    8. 23:59-25:34 changing the rest of the test case in B
-    9. 25:34-25:56 executing the test case GQ"(44) Will this completely solve the problem or provide the enhancement?" and looking why it fails. He expects that it fails and in c"debugger" DBG checking his expectations. Q"Does it fails as I expects?"  GQ"(e8) What does the failure look like?" S"Perfect. It is what I was expecting." Then checking in inspector if the variable is really empty Q"What is the value of the variable ~lstElements~?" GQ"(27) How does this data structure look at runtime?".
+    8. 23:41-23:59 the test does not work Q"Does the test work as I expect?" GQ"(42) What will be (or has been) the direct impact of this change?", but as he sees in c"debugger" DBG it fails later after the change and says S"We are very good. Estamos súper bien."
+    9. 23:59-25:34 changing the rest of the test case in B
+    10. 25:34-25:40 executing the test case GQ"(44) Will this completely solve the problem or provide the enhancement?" and looking why it fails.
+    11. 25:40-25:56 He expects that it fails and in c"debugger" DBG checking his expectations. Q"Does it fails as I expects?"  GQ"(e8) What does the failure look like?" S"Perfect. It is what I was expecting."
+        1. 25:45-25:56 Then checking in inspector if the variable is really empty Q"What is the value of the variable ~lstElements~?" GQ"(27) How does this data structure look at runtime?".
 14. 25:56-43:02 S"Now we are going to return where we were before" It means to B with ~allElements~. Q"How we can implement this feature?" GQ"(38) Where should this branch be inserted or how should this case be handled?"
     1. 26:18-26:58 then goes to PASOA and passing around the PASOA and B with ~BPVCBProcessNormalLayout~ summarizing what he needs.
     2. 26:58-29:28 back in B with ~allElements~ thinking Q"How can I receive the needed values here?" GQ"(26) What is the 'correct' way to use or access this data structure?" thinking it could be received as a tree structure.
@@ -969,10 +981,11 @@
        4. 39:46-40:06 and also ~addElements~. c"observation: actually here he introduced an error which returns him an object instead of a collection. He wrote ~^ OrderedCollection new add:  self~. But this is something what code critics reveals."
        5. 40:06-43:02 going to another class ~BPXSDComplexType~ writing
           1. 40:06-40:30 as he forgot the method ~fillElementIn:~ name he went back to ~BPXSDElement~ to see it Q"What is the method name I want to implement?" GQ"(12) Where is this method called or type referenced?"
-          2. 40:30-43:02 as he is thinking how to implement ~fillElementIn:~ GQ"(38) Where should this branch be inserted or how should this case be handled?", observes instance variables of the class Q"What is the structure of the class?" GQ"(6) What are the parts of this type?"  which have ~xsdSequence~
-             1. 40:45-41:04 He goes to OJD to see complex type here checking the element's structure Q"What is the structure of the XML element?" GQ"(6) What are the parts of this type?"
-             2. 41:04-42:22 back in Pharo a thinking how to implement it and then he finishes the implementation
-             3. 42:22-43:02 moving around the classes where he recently implemented the methods ~allElements~ and ~fillElementIn:~ GQ"(38) Where should this branch be inserted or how should this case be handled?" and finally copying ~allElements~ from ~BPXSDElement~ to ~BPXSDSecuence~ saying S"It is literally equal"
+          2. 40:30-43:02 as he is thinking how to implement ~fillElementIn:~ GQ"(38) Where should this branch be inserted or how should this case be handled?",
+             1. 40:30-40:45 observes instance variables of the class Q"What is the structure of the class?" GQ"(6) What are the parts of this type?"  which have ~xsdSequence~
+             2. 40:45-41:04 He goes to OJD to see complex type here checking the element's structure Q"What is the structure of the XML element?" GQ"(6) What are the parts of this type?"
+             3. 41:04-42:22 back in Pharo a thinking how to implement it and then he finishes the implementation
+             4. 42:22-43:02 moving around the classes where he recently implemented the methods ~allElements~ and ~fillElementIn:~ GQ"(38) Where should this branch be inserted or how should this case be handled?" and finally copying ~allElements~ from ~BPXSDElement~ to ~BPXSDSecuence~ saying S"It is literally equal"
 15. 43:02-43:30 he is thinking about to test it, going to a test case which could serves him. GQ"(44) Will this completely solve the problem or provide the enhancement?"
 16. 43:30-45:25 the session finished. He explains what he should do next. He finishes the session by himself. I had not to say anything.
 ** Session S4 with P7, unfamiliar (Fix SVGPath movement)
@@ -1284,31 +1297,34 @@
 31. 30:32-30:38 c"change-wording" he finds out a typo ~reciever~ instead of ~receiver~ and decides to fix it also in the method ~testCountBefore~.
 32. 30:38-30:57 c"rename-method" he renames ~testCountRunWithIn~ to ~testCountRunWithIn1~.
 33. 30:57-31:06 he observes his test case and comments it.
-34. 31:06-31:18 c"run-test" Qe7 c"test-fails" he executes the test case ~testCountRunWithIn1~ which fails. c"why-test-fails" Qe8 He observers in c"debugger" method ~S2TesterSpy>>testCountRunWithIn1~ and Q19 values of ~assert:equals:~. He closes the debugger. He did not expected this failure. c"unexpected-failure"
-35. 31:18-31:48 c"change" c"fix-test-case" he fixes the test case ~testCountRunWithIn1~
-36. 31:48-31:50 c"run-test" Qe7 c"green" and runs it again. Now it is green.
-37. 31:50-34:18 c"rename-method" he renames ~testCountRunWithIn1~ back to ~testCountRunWithIn~ and c"implement" c"reuse-code" implements new test case ~testRunWithIn~. Q"How I can test return values for ~runWithInBlock:~?" Q38
-38. 34:18-34:21 c"run-test" Qe7 c"test-fails" c"unexpected-failure" he executes the test case ~testRunWithIn~ which fails; he did not expected it.
-39. 34:21-34:44 Qe8 c"observer" c"debugger" He observes in the debugger method ~S2TesterSpy>>testRunWithIn~. c"reveal-error" He understand why it fails and closes the debugger.
-40. 34:44-35:06 c"navigate" he goes to ~S2pyB>>foo~ method to see the implementation; c"check-assumption" it ascertains his previous thoughts. Q"Am I right in my thoughts?" He also observes ~bar~ method and checks methods ~foo~ and ~bar~ in ~S2pyA~ class. Q17 He closes the Nautilus.
-41. 35:06-35:25 c"explain" he explains what happens and that he does not want to change ~S2pyA~ and ~S2pyB~ classes because it could affect other existing test. He wants to have it first stable, before changing anything.
-42. 35:25-35:28 c"run-test" Qe7 c"test-fails" c"check-assumption" c"debugger" he runs again the test case ~testRunWithIn~ seeing that it fails and closes the debugger.
-43. 35:28-35:43 c"change" c"fix-test-case" he changes the test case ~testRunWithIn~
-44. 35:43-35:45 c"run-tests" c"green" and executes it; it is green.
-45. 35:45-36:12 c"implements" c"reuse-code" now he implements test case ~testCountAfter~ using test case ~testCountBefore~.
-46. 36:12-36:14 c"run-tests" Qe7 c"green" and executes it; it is green.
-47. 36:14-37:35 c"refactor" he refactors the same part of code from the new test cases.
-48. 37:35-37:37 c"run-tests" Qe7 c"green" and executes all the test cases of ~S2TesterSpy~ class; they are green.
-49. 37:37-38:26 c"clean-code" c"save" He categorizes methods and saves the image.
-50. 38:26-48:47 c"what-next" Q"What should I test/implement next?" Qx"The question is about what to do next in order to proceed the task."  c"implements" He thinks about next step and then implements new test case ~testMessageNotUnderstood~.
+34. 31:06-31:08 c"run-test" Qe7 c"test-fails" he executes the test case ~testCountRunWithIn1~ which fails.
+35. 31:08-31:18 c"why-test-fails" Qe8
+    1. 31:08-31:18 He observers in c"debugger" method ~S2TesterSpy>>testCountRunWithIn1~ and Q19 values of ~assert:equals:~. He closes the debugger. He did not expected this failure. c"unexpected-failure"
+36. 31:18-31:48 c"change" c"fix-test-case" he fixes the test case ~testCountRunWithIn1~
+37. 31:48-31:50 c"run-test" Qe7 c"green" and runs it again. Now it is green.
+38. 31:50-34:18 c"rename-method" he renames ~testCountRunWithIn1~ back to ~testCountRunWithIn~ and c"implement" c"reuse-code" implements new test case ~testRunWithIn~. Q"How I can test return values for ~runWithInBlock:~?" Q38
+39. 34:18-34:21 c"run-test" Qe7 c"test-fails" c"unexpected-failure" he executes the test case ~testRunWithIn~ which fails; he did not expected it.
+40. 34:21-34:44 Qe8 c"observer" c"debugger" He observes in the debugger method ~S2TesterSpy>>testRunWithIn~. c"reveal-error" He understand why it fails and closes the debugger.
+41. 34:44-35:06 c"navigate" he goes to ~S2pyB>>foo~ method to see the implementation; c"check-assumption" it ascertains his previous thoughts. Q"Am I right in my thoughts?" He also observes ~bar~ method and checks methods ~foo~ and ~bar~ in ~S2pyA~ class. Q17 He closes the Nautilus.
+42. 35:06-35:25 c"explain" he explains what happens and that he does not want to change ~S2pyA~ and ~S2pyB~ classes because it could affect other existing test. He wants to have it first stable, before changing anything.
+43. 35:25-35:28 c"run-test" Qe7 c"test-fails" c"check-assumption" c"debugger" he runs again the test case ~testRunWithIn~ seeing that it fails and closes the debugger.
+44. 35:28-35:43 c"change" c"fix-test-case" he changes the test case ~testRunWithIn~
+45. 35:43-35:45 c"run-tests" c"green" and executes it; it is green.
+46. 35:45-36:12 c"implements" c"reuse-code" now he implements test case ~testCountAfter~ using test case ~testCountBefore~.
+47. 36:12-36:14 c"run-tests" Qe7 c"green" and executes it; it is green.
+48. 36:14-37:35 c"refactor" he refactors the same part of code from the new test cases.
+49. 37:35-37:37 c"run-tests" Qe7 c"green" and executes all the test cases of ~S2TesterSpy~ class; they are green.
+50. 37:37-38:26 c"clean-code" c"save" He categorizes methods and saves the image.
+51. 38:26-48:47 c"what-next" Q"What should I test/implement next?" Qx"The question is about what to do next in order to proceed the task."  c"implements" He thinks about next step and then implements new test case ~testMessageNotUnderstood~.
     1. 38:50-41:08 Q"How can I test ~messageNotUnderstooBlock~?" Q38
        1. 39:24-39:47 he goes to the next Nautilus searching for ~S2Tester~ and its c"rename-method" c"refactor" method name where he renames ~messageNotUnderstoodHandler:~ to ~messageNotUnderstoodBlock:~. c"lost-in-packages" C"I have an impression that as he has a lot of class categories in ~S2py~ package, he regularly clicks on several ones before finding the right one."
        2. 39:47-40:10 c"implement" he goes back to ~testMessageNotUnderstood~ method and continues in the implementation.
        3. 40:10-41:03 c"navigation" c"what-are-parameters" goes back to Nautilus with ~S2Tester~ watching ~initialize~ for block arguments names Q"What are the arguments for the block ~messageNotUnderstoodBlock~?" Q18 and finds out that ~messageNotUnderstoodBlock~ is not initialized c"fix-potentional-error" C"a potential bug revealed in advance?". c"implements" He adds the line of code to ~initialize~
        4. 41:03-41:08 c"navigate" goes back to Nautilus with ~S2TesterSpy>>testMessageNotUnderstood~
     2. 41:08-45:11 c"navigate" and immediately to the previous Nautilus with ~S2Tester>>initialize~. c"want-better-implementation" He previously wrote =Error signal= but he wants to have a better solution. Q"What is the better solution to ~messageNotUnderstoodBlock~ behavior?" GQ"(38) How can I improve current implementation?"
-       1. 41:27-42:49 c"browse" c"class-hierarchy" browses ~Error~ class searching and observes its subclasses in ~Kernel-Exceptions~ package. Q8 c"vague-search" He want something like "personalized error with an message." Q5 C"I guess he wants to write =self error: 'error message'=."
-          1. 42:15-42:49 c"navigate" he see that ~Exception~ class has methods ~messageText~ or ~tag~ and asks Q"What ~tag~ is used for?  Who use ~tag~?" Q25
+       1. 41:27-42:49 c"vague-search" He want something like "personalized error with an message." Q5 C"I guess he wants to write =self error: 'error message'=."
+          1. 41:40-42:15 c"browse" c"class-hierarchy" browses ~Error~ class searching and observes its subclasses in ~Kernel-Exceptions~ package. Q8 
+          2. 42:15-42:49 c"navigate" he see that ~Exception~ class has methods ~messageText~ or ~tag~ and asks Q"What ~tag~ is used for?  Who use ~tag~?" Q25
              1. 42:15-42:22 c"browse" he browses users of ~tag~ instance variable and receives two methods ~tag~ and ~tag:~. Q"Who uses ~tag~ instance variable?" Q15
              2. 42:22-42:29 then he asks Q"Who sends ~tag~ method?" Q12 and have a window with 13 senders c"fine-result". Then he closes it.
              3. 42:29-42:32 then he closes the ~tag~ users window.
@@ -1325,17 +1341,17 @@
        3. 46:38-46:41 c"search-class-name" he goes to other opened Nautilus where he finds ~S2TestException~ definition. Q"What is the exact class name I have recently implemented?"
        4. 46:41-46:44 c"implement" and continues writing the test case ~testMessageNotUnderstood1~.
     4. 46:44-48:47 c"change" he removes the old ~testMessageNotUnderstood~ method and writes other code in ~testMessageNotUnderstood1~. c"confusing-tool-behavior" C"He was surprised that written method call ~messageNotUnderstoodBlock:~ has red color; it was parsed together with following line of code. He almost wanted to go to other Nautilus to see the name." C"It is also happened again that he had an error when trying to accept code, but he did not read the message. He read it after second try." Q"Why the code is highlighted as not existing method?"
-51. 48:47-48:50 c"save" c"run-tests" Qe7 c"red" c"unexpected-failure" he saves the image and executes the test ~testMessageNotUnderstood1~; it is read. It is not expected.
-52. 48:50-48:58 Qe8 c"observe" He observes ~BlockClosure>>value:~ and ~BlockClosure>>numArgsError:~ in the c"debugger" and closes it. C"Maybe the r1 question can be divided into 17, because he was not interested in behavior, he only observed source code."
-53. 48:58-49:14 c"navigation" he goes to Nautilus and observes method ~S2TesterMethod~ class and its method names. Then goes to ~S2Tester~ class where he finds the desired message ~messageNotUnderstoodBlock:~. c"fix" Then he goes to ~doesNotUnderstand:~ method where he finds the error and fixes it. c"is-this-question?"
-54. 49:14-49:17 c"run-tests" Qe7 c"yellow" c"unexpected-failure" he goes to the Nautilus with test case ~testMessageNotUnderstood1~ and executes it; it is yellow.
-55. 49:17-50:13 Qe8 c"observe" He observes ~S2TesterSpy(TestAsserter)>>should:raise~ and ~S2TesterSpy>>testMessageNotUnderstood1~. Then he does not understand why it fails and decides to debug =profiler bar=. c"evaluate-expression"
+52. 48:47-48:50 c"save" c"run-tests" Qe7 c"red" c"unexpected-failure" he saves the image and executes the test ~testMessageNotUnderstood1~; it is read. It is not expected.
+53. 48:50-48:58 Qe8 c"observe" He observes ~BlockClosure>>value:~ and ~BlockClosure>>numArgsError:~ in the c"debugger" and closes it. C"Maybe the r1 question can be divided into 17, because he was not interested in behavior, he only observed source code."
+54. 48:58-49:14 c"navigation" he goes to Nautilus and observes method ~S2TesterMethod~ class and its method names. Then goes to ~S2Tester~ class where he finds the desired message ~messageNotUnderstoodBlock:~. c"fix" Then he goes to ~doesNotUnderstand:~ method where he finds the error and fixes it. c"is-this-question?"
+55. 49:14-49:17 c"run-tests" Qe7 c"yellow" c"unexpected-failure" he goes to the Nautilus with test case ~testMessageNotUnderstood1~ and executes it; it is yellow.
+56. 49:17-50:13 Qe8 c"observe" He observes ~S2TesterSpy(TestAsserter)>>should:raise~ and ~S2TesterSpy>>testMessageNotUnderstood1~. Then he does not understand why it fails and decides to debug =profiler bar=. c"evaluate-expression"
     1. 49:39-50:13 Q19 c"observe" he debugs it in the new c"debugger"
        1. 50:04-50:05 when he is in ~S2TesterSpy>>testMessageNotUnderstood1~ method, he is interested in return value of =message selector=. Q19 c"evaluate-expression" He inspects it a receives =#bar= value and closes the inspector.
        2. 50:05-50:13 c"reveal-error" then he finds the error
-56. 50:13-50:48 c"fix-test-case" and fixes it in the c"debugger". As he is in nested block, he cannot accept the code from the debugger. He copies the new code, closes the debugger, and goes to Nautilus where he fixes the issue.
-57. 50:48-50:52 c"run-tests" Qe7 c"green" c"save" he executes the test case ~testMessageNotUnderstood1~ and it is green. He saves the image
-58. 50:52-50:56 session finished
+57. 50:13-50:48 c"fix-test-case" and fixes it in the c"debugger". As he is in nested block, he cannot accept the code from the debugger. He copies the new code, closes the debugger, and goes to Nautilus where he fixes the issue.
+58. 50:48-50:52 c"run-tests" Qe7 c"green" c"save" he executes the test case ~testMessageNotUnderstood1~ and it is green. He saves the image
+59. 50:52-50:56 session finished
 ** Session S5 with P8, unfamiliar code (Nautilus History as Plugin)
    :PROPERTIES:
    :VideoFile: videos/S5-P8.m4v
@@ -1531,9 +1547,10 @@
        1. 39:57-42:40 He says that he expected - browse again to ~buildNavigationList~ Q17 and search for an event registered on ~DropListMorph~, but he cannot see any. Then he recalls that he only reimplemented ~getHistoryList~ and ~currentHistoryIndex~. C"Apparently before, he was expecting an debugger on missing methods in ~HistoryNavigationPlugin~." c"false-assumption" c"answer"
        2. 40:36-40:39 The next command is ~setHistory:~
        3. 40:39-41:06 he goes to definition of ~setHistory:~ Q17 selecting ~--all--~ protocol and looking for it. Then he clicks for a few seconds an background of Pharo. C"In 41:06 He decides to ask for implementors." and without seeing the definition c"not-answered-question" he close the browser.
-       4. 41:06-41:13 he browse again ~buildNavigationList~ Q17 selects ~setHistory:~ and asks for implementors Q"Who implements ~setHistory:~ method?" Q17. A browser with one implementation is opened.
-       5. 41:13-41:23 he reads ~setHistory:~ method body
-       6. 41:23-42:40 but he does not understand why there was not an error so far, using ~HistoryNavigationPlugin~ Q"Why the current solution does not fails for missing ~setHistory:~ in ~HistoryNavigationPlugin~?" Q30 c"not-answered-question"
+       4. 41:06-41:09 he browse again ~buildNavigationList~ Q17 
+       5. 41:09-41:13 selects ~setHistory:~ and asks for implementors Q"Who implements ~setHistory:~ method?" Q17. A browser with one implementation is opened.
+       6. 41:13-41:23 he reads ~setHistory:~ method body
+       7. 41:23-42:40 but he does not understand why there was not an error so far, using ~HistoryNavigationPlugin~ Q"Why the current solution does not fails for missing ~setHistory:~ in ~HistoryNavigationPlugin~?" Q30 c"not-answered-question"
           1. 41:23-41:29 he goes to the browser with ~HistoryNavigationPlugin~ and observes its current methods Q"What methods I have already implemented?" Q6.
           2. 41:29-41:50 he displays ~display~ method and still thinks why the method ~setHistory:~ is not called. C"Here he could check that it is really defined on ~DropListMorph~ usage." He says that the object ~HistoryNavigationPlugin~ neither understands ~setHistory:~, ~spaceFill~, nor ~wrapHistory:~ and he is surprised why they are not called Q"Why the methods ~setHistory:~, ~spaceFill~, and ~wrapHistory:~ are not called? Why do they not raise an error?" Qx"Same question as the parent one."
           3. 41:50-42:02 he goes to the browser with ~NautilusUI~ and observes ~setHistory:~ and ~wrapHistory:~ methods C"He could check that they really exists." Then he click back to ~setHistory:~, but apparently he is just thinks what to do next. c"some-more-clicks-around" Q17
@@ -1643,8 +1660,9 @@
       3. 13:16-13:23 then he browses to ~MultipleMethodsEditor~ Q12
       4. 13:23-13:46 he finds out that it is a ~Morph~ and goes to previous browser with ~buildCodePane~. C"He is likely satisfied with this current knowledge."
    9. 13:46-13:59 he summarizes what he knows about ~buildNewSourceTextArea~ and about Rubric, he goes to the browser with ~RubSmalltalkMethodEditor~.
-   10. 13:59-14:52 he observes ~RubSmalltalkMethodEditorModel~ class Q6 and considers the differences in API of ~RubSmalltalkMethodEditorModel~ and ~TextMorphForEditView~. Q35 He believes that they are inconsistent and it is something he has to deal with. He discusses possible solution.
-   11. 14:52-17:18 goes to ~Rubric-Editing-Widgets-Examples~ package and ~RubMethodEditingExample~ and he decides to investigate how it works Q"How does ~RubMethodEditingExample~ work?" Q23
+   10. 13:59-14:30 he observes ~RubSmalltalkMethodEditorModel~ class Q6 
+   11. 14:30-14:52 and considers the differences in API of ~RubSmalltalkMethodEditorModel~ and ~TextMorphForEditView~. Q35 He believes that they are inconsistent and it is something he has to deal with. He discusses possible solution.
+   12. 14:52-17:18 goes to ~Rubric-Editing-Widgets-Examples~ package and ~RubMethodEditingExample~ and he decides to investigate how it works Q"How does ~RubMethodEditingExample~ work?" Q23
        1. 15:08-17:18 he observes the class Q6.
           1. 15:38-16:15 Q"What does the ~textModel~ method returns?" Qe5
              1. 15:38-15:57 in ~newScrolledText~ he finds =self textModel= and wants to know what it returns. Q19 He tries to execute =self textModel= but it does not work (it cannot work because self is class not an instance). A c"debugger" appears, he closes it.
@@ -1660,9 +1678,10 @@
 13. 18:34-18:40 c"implement" goes to ~buildNewSourceTextArea~ and adds ~newScrolledText~ call.
 14. 18:40-18:56 c"check" then he tries if it works and executes new Nautilus. c"runtime" c"transition-7-to-runtime" Yes, it works, there is c"debugger" with another error. He closes the debugger. Q"Does it solve the issue?" Q44
 15. 18:56-19:15 but the Nautilus is opened and he says S"In theory I have here a Rubric editor". Then he closes the Nautilus with Rubric, but cannot because of ~getText~ error. He minimalise it.
-16. 19:15-20:01 He observes ~newScrolledText~ method Q17 and immediately opens again new Nautilus. In c"debugger" he observes ~okToChange~ method where ~getText~ method is called Q29. The he minimalise the debugger and Nautilus.
-17. 20:01-20:17 Then he revert ~buildNewSourceTextArea~ method, because he preferes to use Nautilus.
-18. 20:17-26:20 <<t3link12>> Q"How can I obtain the saved text of the Rubric editing area?" Q28 c"false-assumption-removed" C"His solution is temporal, he implements ~getText~, but he should explore ~getTextSelector~ and ~setTextSelector~." C"I remove this false-assumption because it is correct decision. He could change the call from Nautilus or add this method."
+16. 19:15-19:45 He observes ~newScrolledText~ method Q17 and immediately opens again new Nautilus.
+17. 19:45-20:01 In c"debugger" he observes ~okToChange~ method where ~getText~ method is called Q29. The he minimalise the debugger and Nautilus.
+18. 20:01-20:17 Then he revert ~buildNewSourceTextArea~ method, because he preferes to use Nautilus.
+19. 20:17-26:20 <<t3link12>> Q"How can I obtain the saved text of the Rubric editing area?" Q28 c"false-assumption-removed" C"His solution is temporal, he implements ~getText~, but he should explore ~getTextSelector~ and ~setTextSelector~." C"I remove this false-assumption because it is correct decision. He could change the call from Nautilus or add this method."
     1. 20:17-21:06 <<t3link7>> he inspects =RubSmalltalkMethodEditorModel new= Q27 and also browses ~RubSmalltalkMethodEditorModel~ class. As he can see only one method called ~newScrolledText~, he decides to execute it in the inspector. He receives new inspector with ~RubScrolledTextMorph~. c"miss-opportunity" C"In that inspector, he could see ~getText~ method. He spends searching this information from 21:06-22:10, tests it from 22:10-22:20, implements from 22:20-24:24. He should use ~getTextFromModel~." and immediately closes it. And then inspects it again.
     2. 21:06-21:39 <<t3link8>> Here he can see ~getTextSelector~ instance variable with ~getText~ value. He explains what is his intention.
     3. 21:39-21:50 He browses the ~RubScrolledTextMorph~. He then observes if ~RubScrolledTextMorph~ has ~getText~ method; Q6 yes, it has.
@@ -1682,15 +1701,17 @@
     8. 24:24-24:37 he goes to the browser with ~buildNewSourceTextArea~ and reverts changes to the new source code with Rubric.
     9. 24:37-24:44 C"Observer asks him to save the image because he suspect that the image could fail." c"save" c"observer"
     10. 24:44-25:20 He tries to open new Nautilus Q42 and after a while, the image quits unexpectedly. He opens the image again.
-    11. 25:20-25:59 He observes the changes in ~buildNewSourceTextArea~ Q17 and then in ~getTextFromModel~ Q17 Then he finds out the infinite loop. He implements ~getText~ and reverts ~getTextFromModel~ method.
-    12. 25:59-26:12 He saves the image. c"save"
-    13. 26:12-26:20 he opens new Nautilus and receives a new window. Q42
-19. 26:20-26:36 c"runtime" c"transition-7" He makes a several clicks in order to see how it works. Q"How does the current changes behave?" Q42 He can see that editing area is not updated.
-20. 26:36-27:06 <<t3link22>> He thinks why it is not updated Q"Why the editing area is not updated?" Q38, he was supposed that the view will be updated automatically. c"false-assumption"
+    11. 25:20-25:30 He observes the changes in ~buildNewSourceTextArea~ Q17 
+    12. 25:30-25:35 and then in ~getTextFromModel~ Q17 Then he finds out the infinite loop. 
+    13. 25:35-25:59 He implements ~getText~ and reverts ~getTextFromModel~ method.
+    14. 25:59-26:12 He saves the image. c"save"
+    15. 26:12-26:20 he opens new Nautilus and receives a new window. Q42
+20. 26:20-26:36 c"runtime" c"transition-7" He makes a several clicks in order to see how it works. Q"How does the current changes behave?" Q42 He can see that editing area is not updated.
+21. 26:36-27:06 <<t3link22>> He thinks why it is not updated Q"Why the editing area is not updated?" Q38, he was supposed that the view will be updated automatically. c"false-assumption"
     1. 26:46-27:06 Then he goes to ~buildNewSourceTextArea~ Q17 and says, that he should update it the same way as in the previous solution.
-21. 27:06-41:18 <<t3link4>> Q"How can editing area text can be updated on method/class/package selection?" GQ"(23) How the behavior could be implemented?" c"unanswered-question"
+22. 27:06-41:18 <<t3link4>> Q"How can editing area text can be updated on method/class/package selection?" GQ"(23) How the behavior could be implemented?" c"unanswered-question"
     1. 27:06-27:28 he considers why it does not work and meanwhile he closes the Nautilus.
-    2. 27:28-28:04 c"recall" He recalls the class name of the original editing area call ~TextMorphForEditView~. Q"Do I remember well the class name?" Qe9 c"unexpected-answer"
+    2. 27:28-28:04 c"recall" He recalls the class name of the original editing area call ~TextMorphForEditView~. Q"Do I remember well the class name?" Qxe9 c"unexpected-answer"
        1. 27:28-27:39 He wants to check if he is right; for that he wants to see ~textMorphClass~ method C"I do not understand why he simply does not ask for implements."
        2. 27:39-28:04 He goes to another opened browser with ~AbstractNautilusUI~ class. C"Here he uses task bar to find a particular window, but I consider it as well oriented among 19 windows." And looks for ~textMorphClass~ definition. Q17
     3. 28:04-28:12 Here he can see that it returns ~PluggableTextMorphWithLimits~. c"confused" C"I suppose he is confused. He does not remember that ~textMorphClass~ was defined on two classes and that time he ignored one." He first browse ~PluggableTextMorphWithLimits~ class but he closes it immediately.
@@ -1747,8 +1768,8 @@
         8. 40:13-40:14 and closes the c"debugger".
         9. 40:14-40:59 he observes the ~getText~ method. Q"How does it work?" Q17
         10. 40:59-41:18 he goes back to ~buildNewSourceTextArea~
-22. 41:18-41:55 then he prefers to finish the session, because he could observe it for a long time.
-23. 41:55 session finished
+23. 41:18-41:55 then he prefers to finish the session, because he could observe it for a long time.
+24. 41:55 session finished
 ** Session S15 with P9, familiar (LiveRobots, well sorted variables)
    :PROPERTIES:
    :VideoFile: videos/S15-P9.m4v
