@@ -403,7 +403,7 @@
       6. 09:50-10:22 <<s9link3>> he changes the code of ~LRPErrorHandler~. He has no idea what is the difference.
    4. 10:22-12:37 he defines ~LRPErrorHandler~ API
       1. 11:04-11:16 Q"How the error handling is now implemented in ~LRPInterpeter~?" Q23 He need to know how the current handling is defined now in order to define new API. There is a protocol with 5 methods that ~LRPErrorHandler~ has to implement.
-      2. 11:16-11:45 Q"How the error handling methods look like?" Q17 he observes source code of ~errorBlock:~, ~eventHasNotBool:value:~, ~eventNotFound:machine:~, ~machineNotFound:~, ~stateNotFound:machine:~
+      2. 11:16-11:45 Q"What do the error handling methods look like?" Q17 he observes source code of ~errorBlock:~, ~eventHasNotBool:value:~, ~eventNotFound:machine:~, ~machineNotFound:~, ~stateNotFound:machine:~
       3. 11:45-12:37 he defines the API on ~LRPErrorHandler~ class.
          1. 12:20-12:22 Q"Are the names of the methods right ones?" Qe2 OQ While copying the methods he mentions this question, but he did not consider it much.
    5. 12:37-13:45 he defines the same method for ~LRPDummyErrorHander~ that does not do anything
@@ -2257,7 +2257,7 @@
 *** Transcript
 1. 00:00-00:20 basic session preparation
 2. 00:20-01:32 Q"What do I need to do?" Qx"Too generic question about the assignment."
-   1. 00:25-01:14 Q"How does it works now in Nautilus?" Q25 S"OK. Let's see how does it works now in Nautilus." He opens Nautilus and selects a method to try the current functionality with CMD+click. c"observer" Observer says that there is also functionality for CMD+SHIFT+click. He tries both clicks on a method call and on a class reference. S"This not intuitive at all."
+   1. 00:25-01:14 Q"How does it work now in Nautilus?" Q25 S"OK. Let's see how does it work now in Nautilus." He opens Nautilus and selects a method to try the current functionality with CMD+click. c"observer" Observer says that there is also functionality for CMD+SHIFT+click. He tries both clicks on a method call and on a class reference. S"This not intuitive at all."
    2. 01:14-01:32 he reads the assignment. c"observer" Observer explains a bit the assignment.
 3. 01:32-01:38 Q"What solution could be the best?" He thinks a bit, but then says S"Let's see first where it is implemented." Qx"He rather thinks about next procedure."
 4. 01:38-08:36 Q"Where is this feature implemented? Where could I put the assignment logic?" Q3 c"answered-question"
