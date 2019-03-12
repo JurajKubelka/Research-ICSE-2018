@@ -43,4 +43,4 @@ The ICPC 2019 study includes analysis of:
 - list of questions practitioners asked during programing change tasks, and
 - an analysis of question occurrences, question complexities, and tool support answering questions.
 
-The list of questions is extracted from [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt) and is available at [questions.csv](./01-exploratory-study/questions.csv), including question properties used in the ICPC'19 analysis.
+The list of questions is extracted from [transcripts.org.txt](./01-exploratory-study/transcripts.org.txt) and is available at [questions.csv](./01-exploratory-study/questions.csv), including used question properties.
